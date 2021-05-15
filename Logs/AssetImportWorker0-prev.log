@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.964; Version 2009; 64bit' Language: 'es' Physical Memory: 12129 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sebaf/AXIS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63057
+Successfully changed project path to: C:/Users/sebaf/AXIS
+C:/Users/sebaf/AXIS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sebaf/AXIS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   
+    VRAM:     2996 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001876 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 4.308300 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.274700 ms MarkObjects: 3.415000 ms  DeleteObjects: 0.137200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Sand-Planet.png
+  artifactKey: Guid(71ac7bd0a112e0445a75d4cf6d697128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Sand-Planet.png using Guid(71ac7bd0a112e0445a75d4cf6d697128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d30ab88eaaa8cadba661a2325cce7a') in 0.106577 seconds
+  Import took 0.109498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Storm-Planet 1.png
+  artifactKey: Guid(ecf7b80712cebd042820b11f9a6f3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Storm-Planet 1.png using Guid(ecf7b80712cebd042820b11f9a6f3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9d6f71384945756173635fda8a7c84') in 0.018348 seconds
+  Import took 0.021506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/red-planet-sputnik.png
+  artifactKey: Guid(1869fb7484aa0c143afc697469c77982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/red-planet-sputnik.png using Guid(1869fb7484aa0c143afc697469c77982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e57e8fd73506877a41286146c0fbd39') in 0.017737 seconds
+  Import took 0.023219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red-Planet-1.png
+  artifactKey: Guid(e649371ffe68bfa4c8a5f18c1e0186f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red-Planet-1.png using Guid(e649371ffe68bfa4c8a5f18c1e0186f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06b8bd36508c301bee423692fab345') in 0.015979 seconds
+  Import took 0.020475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Dark-PLanet.png
+  artifactKey: Guid(2bed99daade80374692348a8299459cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Dark-PLanet.png using Guid(2bed99daade80374692348a8299459cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb76b0d3d87f0005c647d95ba4709522') in 0.023159 seconds
+  Import took 0.027238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red Lines PLanet.png
+  artifactKey: Guid(aff35f74e4d308545a00e273b618c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red Lines PLanet.png using Guid(aff35f74e4d308545a00e273b618c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3d2fa13319068e82e59c8a16027b64') in 0.019949 seconds
+  Import took 0.024428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Water-Planet-wWih-Small-Islands.png
+  artifactKey: Guid(5c7b6fcdc51c1ec4eb1e4d66c3943700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Water-Planet-wWih-Small-Islands.png using Guid(5c7b6fcdc51c1ec4eb1e4d66c3943700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013c334ffe7501b928125f946219b203') in 0.017845 seconds
+  Import took 0.025679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/cyan-planet.png
+  artifactKey: Guid(4f98fdc086f0e534aa159f3230263ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/cyan-planet.png using Guid(4f98fdc086f0e534aa159f3230263ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7a890584fcfaaa34872c1e81cb19df') in 0.020336 seconds
+  Import took 0.026443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/earth.png
+  artifactKey: Guid(4dc75a220dfadec47be9a6b70272c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/earth.png using Guid(4dc75a220dfadec47be9a6b70272c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d29135fad90e63e207b706b598278b1') in 0.019287 seconds
+  Import took 0.022427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/blue-planet.png
+  artifactKey: Guid(7fd37ac138fced546a89a75d728d0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/blue-planet.png using Guid(7fd37ac138fced546a89a75d728d0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c611192675599c999e7b357e8b172b39') in 0.022167 seconds
+  Import took 0.027388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Orange-Planet.png
+  artifactKey: Guid(2ac0db94ff1d5c041bafd13526beb3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Orange-Planet.png using Guid(2ac0db94ff1d5c041bafd13526beb3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f372707955885b8aceeb60943e6a4db3') in 0.019663 seconds
+  Import took 0.022822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Purple-Planet.png
+  artifactKey: Guid(f61845ff0fcabb149af7e9f6d8b660ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Purple-Planet.png using Guid(f61845ff0fcabb149af7e9f6d8b660ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8351d805743750f97752f1515409fa44') in 0.019085 seconds
+  Import took 0.023654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Ice-Planet.png
+  artifactKey: Guid(a11c432b67c633f4dbd20598771446b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Ice-Planet.png using Guid(a11c432b67c633f4dbd20598771446b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82000621ad50338c2a217349d00f4e58') in 0.018509 seconds
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red-Planet-With-Ice.png
+  artifactKey: Guid(946c2d6c1621c1449b842ae06de460b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planets with Space Background in Flat Style/Planets and Background With Shadows/Red-Planet-With-Ice.png using Guid(946c2d6c1621c1449b842ae06de460b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7856c7b32230f5bde519833a4885d142') in 0.021128 seconds
+  Import took 0.024524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.731963 seconds.
+  path: Assets/2 Background/Background.png
+  artifactKey: Guid(87975c5369658cf4e995506ff7fbd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Background.png using Guid(87975c5369658cf4e995506ff7fbd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393bd633f985bcbebef71ad285a8e585') in 0.015586 seconds
+  Import took 0.018615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.260471 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/1.png
+  artifactKey: Guid(ea55f36ee07fc6c41914af1631db331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/1.png using Guid(ea55f36ee07fc6c41914af1631db331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d765307d0ad520261ef449b272489d0') in 0.016326 seconds
+  Import took 0.020198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/4.png
+  artifactKey: Guid(5a3681cdb5c10c240b380de85adfc496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/4.png using Guid(5a3681cdb5c10c240b380de85adfc496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101aa76a04c33a60af4382cf4e58ac1f') in 0.013953 seconds
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/2.png
+  artifactKey: Guid(7f3e4d6823b33e94e81a0223d12ff2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/2.png using Guid(7f3e4d6823b33e94e81a0223d12ff2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c10a676bb2fa1e91f266cde136cfc3') in 0.018565 seconds
+  Import took 0.022470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/6.png
+  artifactKey: Guid(b71222074eb7fd84fb01709ef8e61232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/6.png using Guid(b71222074eb7fd84fb01709ef8e61232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fad21016d24275a734a2d31d7b7d54') in 0.015336 seconds
+  Import took 0.019043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/5.png
+  artifactKey: Guid(360f45a09869903428111e98a8b6e9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/5.png using Guid(360f45a09869903428111e98a8b6e9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a65de1b5dc9e2fc38071d4ebb582ede') in 0.017609 seconds
+  Import took 0.022773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2 Background/3 Objects/Ridges/3.png
+  artifactKey: Guid(ab1f23978c7402d4fbab6322f0480426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Ridges/3.png using Guid(ab1f23978c7402d4fbab6322f0480426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bc1b19d2fa2af28b7c2e4c6114676e') in 0.017882 seconds
+  Import took 0.020812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.115988 seconds.
+  path: Assets/2 Background/4 Animated objects/Chest.png
+  artifactKey: Guid(b3304de67ed634549a5a935556fae43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/4 Animated objects/Chest.png using Guid(b3304de67ed634549a5a935556fae43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192e298a36d3aaf650731066995af61f') in 0.014135 seconds
+  Import took 0.017246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2 Background/4 Animated objects/Rune.png
+  artifactKey: Guid(2793063d67ae50740acc34f4bd287f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/4 Animated objects/Rune.png using Guid(2793063d67ae50740acc34f4bd287f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cebe37124cae48cead63badaff0228') in 0.012469 seconds
+  Import took 0.015615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/2 Background/4 Animated objects/Coin.png
+  artifactKey: Guid(dcae8c8007d65be4381a757f509f5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/4 Animated objects/Coin.png using Guid(dcae8c8007d65be4381a757f509f5711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2014cd06741a5d1d47d97de2cacc9768') in 0.023287 seconds
+  Import took 0.027447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/2 Background/4 Animated objects/Key.png
+  artifactKey: Guid(7dae50d09db1dd84382e54897479ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/4 Animated objects/Key.png using Guid(7dae50d09db1dd84382e54897479ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada1f5961275a8ae1143a362ce5d9d9') in 0.019007 seconds
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/2 Background/4 Animated objects/Flag.png
+  artifactKey: Guid(2dcf773f6586a3946b327a6bb702eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/4 Animated objects/Flag.png using Guid(2dcf773f6586a3946b327a6bb702eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56c1ea064493837acafa4fc001533df') in 0.013944 seconds
+  Import took 0.017063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.242044 seconds.
+  path: Assets/2 Background/Layers/1.png
+  artifactKey: Guid(0f3198984a244bd409b785ffe7c08f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Layers/1.png using Guid(0f3198984a244bd409b785ffe7c08f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4163527d3b52f2ba9aa218231e1315e7') in 0.014828 seconds
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2 Background/Layers/3.png
+  artifactKey: Guid(8fa132e859c94a049a64d79e09bd558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Layers/3.png using Guid(8fa132e859c94a049a64d79e09bd558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb621ee18a0814e5a11669f1675c48b0') in 0.017420 seconds
+  Import took 0.020421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/2 Background/Layers/5.png
+  artifactKey: Guid(5a36b8fbda7b2c04094e228d9bfa3795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Layers/5.png using Guid(5a36b8fbda7b2c04094e228d9bfa3795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dafa9c6376af9b431f9c0cb248e0c80') in 0.014189 seconds
+  Import took 0.017239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2 Background/Layers/4.png
+  artifactKey: Guid(ea9433e48741f8a41bd1b0c92b28df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Layers/4.png using Guid(ea9433e48741f8a41bd1b0c92b28df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae5e80cc0f2b0e2fec32a152c08ef2') in 0.015695 seconds
+  Import took 0.019683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/2 Background/Layers/2.png
+  artifactKey: Guid(09ca7af436c6c8c418fe422a0528d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/Layers/2.png using Guid(09ca7af436c6c8c418fe422a0528d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9f5eabeba631d4f3d7f9da2ab2e1fb') in 0.012796 seconds
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.991188 seconds.
+  path: Assets/2 Background/3 Objects
+  artifactKey: Guid(226dc71147ee14548a434b80012d2486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects using Guid(226dc71147ee14548a434b80012d2486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8676e98f758d9bc8320d0a0b194198') in 0.008504 seconds
+  Import took 0.012900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.239332 seconds.
+  path: Assets/2 Background/3 Objects/Willows
+  artifactKey: Guid(dcbe98cebf34d5f43b16fa01629d4840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Willows using Guid(dcbe98cebf34d5f43b16fa01629d4840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9739f2f54033fc694fd98b528d658d') in 0.007118 seconds
+  Import took 0.010074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058141 seconds.
+  path: Assets/2 Background/3 Objects/Willows/1.png
+  artifactKey: Guid(4f0009689d4ef8f41852414046447daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Willows/1.png using Guid(4f0009689d4ef8f41852414046447daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d3bee5c08a81213280c76a1d1a7db') in 0.014159 seconds
+  Import took 0.017187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/2 Background/3 Objects/Willows/3.png
+  artifactKey: Guid(c5bb70dbe4b22044bb6b514dd0533dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Willows/3.png using Guid(c5bb70dbe4b22044bb6b514dd0533dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c7118e712eec6f40234e87ff9998eb') in 0.017401 seconds
+  Import took 0.020165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2 Background/3 Objects/Willows/2.png
+  artifactKey: Guid(651c5714f0a3f5246817fc8ac9d7b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/3 Objects/Willows/2.png using Guid(651c5714f0a3f5246817fc8ac9d7b5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb7eb2ba5a31946b56edf3b2162b26a') in 0.020433 seconds
+  Import took 0.024869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 569.127548 seconds.
+  path: Assets/2 Background/PSD
+  artifactKey: Guid(80a1823021957d14086d5890f99517db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/PSD using Guid(80a1823021957d14086d5890f99517db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951c48c21e58ca686478e3c8974d413a') in 0.007124 seconds
+  Import took 0.011042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069105 seconds.
+  path: Assets/2 Background/PSD/Background.psd
+  artifactKey: Guid(7d37c3becc607dd4497c3891e4fa7803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/PSD/Background.psd using Guid(7d37c3becc607dd4497c3891e4fa7803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad8d8531b35396ccbaf3b3a830bd684') in 0.012811 seconds
+  Import took 0.015829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2 Background/PSD/Objects.psd
+  artifactKey: Guid(8110c7215dc281b4687409e97eb2cef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/PSD/Objects.psd using Guid(8110c7215dc281b4687409e97eb2cef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c1c5c6793cb33f168bf1a759fea244') in 0.016288 seconds
+  Import took 0.019401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/2 Background/PSD/Tileset.psd
+  artifactKey: Guid(3af0661e6415d3546ad2f6aeab81f509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Background/PSD/Tileset.psd using Guid(3af0661e6415d3546ad2f6aeab81f509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13210e5bfc1c8918e99420ec7c4ef020') in 0.018766 seconds
+  Import took 0.022124 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
