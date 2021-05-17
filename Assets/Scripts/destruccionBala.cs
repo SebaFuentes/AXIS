@@ -8,7 +8,6 @@ public class destruccionBala : MonoBehaviour
     {
         if(collision.transform.CompareTag("Bala"))
         {
-            Debug.Log("Meteoro destruido");
             Destroy(collision.gameObject);
         }
     }

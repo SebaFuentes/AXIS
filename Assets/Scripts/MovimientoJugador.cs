@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MovimientoJugador : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class MovimientoJugador : MonoBehaviour
     public float speed;
     public float rotationInterpolation = 0.4f;
     public bool isMoving;
+    public TextMeshProUGUI VidaTexto;
+    public int Vida = 100;
     
     private Vector2 input;
     private float shipAngle;
@@ -17,6 +20,8 @@ public class MovimientoJugador : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        VidaTexto.text = "Vida: " + Vida;
     }
 
     // Update is called once per frame
@@ -32,6 +37,8 @@ public class MovimientoJugador : MonoBehaviour
         {
             isMoving = false;
         }
+
+        VidaTexto.text = "Vida: " + Vida;
     }
 
     private void FixedUpdate()
@@ -61,6 +68,15 @@ public class MovimientoJugador : MonoBehaviour
         else
         {
             rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);  
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Meteorito")
+        {
+            Vida -= 10;
+            Destroy(collision.gameObject);
         }
     }
 }
