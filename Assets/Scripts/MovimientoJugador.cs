@@ -39,6 +39,11 @@ public class MovimientoJugador : MonoBehaviour
         }
 
         VidaTexto.text = "Vida: " + Vida;
+        if (Vida<=0)
+        {
+            Debug.Log("Has muerto");
+            Destroy(gameObject);
+        }
     }
 
     private void FixedUpdate()
@@ -73,7 +78,7 @@ public class MovimientoJugador : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Meteorito")
+        if (collision.gameObject.tag == "Meteorito" || collision.gameObject.tag == "Enemigo")
         {
             Vida -= 10;
             Destroy(collision.gameObject);

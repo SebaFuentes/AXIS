@@ -4,13 +4,22 @@
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/NaveJugador.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/NaveJugador.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/proyectil.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/proyectil.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/cambios.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/destruccionBala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/destruccionBala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/destruccionMateoro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/destruccionMateoro.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +47,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/disparo2d.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/destruccionMeteorito.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/destruccionMateoro.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/destruccionBala.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/destruccionMateoro.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoEnemigo.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -96,6 +106,7 @@
       <workItem from="1621212600738" duration="11000" />
       <workItem from="1621216518548" duration="3412000" />
       <workItem from="1621219996580" duration="21000" />
+      <workItem from="1621298209529" duration="3365000" />
     </task>
     <servers />
   </component>
