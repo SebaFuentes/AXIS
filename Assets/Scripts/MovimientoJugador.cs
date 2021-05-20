@@ -13,31 +13,33 @@ public class MovimientoJugador : MonoBehaviour
     public TextMeshProUGUI VidaTexto;
     public int Vida = 100;
     
-    private Vector2 input;
     private float shipAngle;
-    
-    // Start is called before the first frame update
+    private InputMaster controles;
+
+    private void Awake()
+    {
+        controles = new InputMaster();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnEnable()
+    {
+        controles.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controles.Disable();
+    }
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-
         VidaTexto.text = "Vida: " + Vida;
     }
 
     // Update is called once per frame
     void Update()
     {
-        input.x = Input.GetAxisRaw("Horizontal");
-        input.y = Input.GetAxisRaw("Vertical");
-        if (input.x!=0 || input.y!=0)
-        {
-            isMoving = true;
-        }
-        else
-        {
-            isMoving = false;
-        }
-
         VidaTexto.text = "Vida: " + Vida;
         if (Vida<=0)
         {
@@ -48,13 +50,23 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = input * speed * Time.fixedDeltaTime;
+        Vector2 MoveInput = controles.Jugador1.Movimiento.ReadValue<Vector2>();
+        rb.velocity = MoveInput * speed;
+        if (MoveInput.x!=0 || MoveInput.y!=0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
         GetRotation();
     }
 
     void GetRotation()
     {
-        Vector2 lookDir = new Vector2(-input.x, input.y);
+        Vector2 MoveInput = controles.Jugador1.Movimiento.ReadValue<Vector2>();
+        Vector2 lookDir = new Vector2(-MoveInput.x, MoveInput.y);
         if (isMoving==true)
         {
             shipAngle = Mathf.Atan2(lookDir.x, lookDir.y)* Mathf.Rad2Deg;

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,20 +6,36 @@ using UnityEngine;
 public class disparador : MonoBehaviour
 {
     public GameObject proyectil;
-    public float distancia;
+    private float distancia;
+    private InputMaster controles;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        distancia = 20f;
+        controles = new InputMaster();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
-            Instantiate(proyectil, transform.position, transform.rotation);
-        }
+        controles.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controles.Disable();
+    }
+
+    void Start()
+    {
+        controles.Jugador1.Disparo.performed += ctx => disparo();
+    }
+    
+    void FixedUpdate()
+    {
+        
+    }
+
+    private void disparo()
+    {
+        Instantiate(proyectil, transform.position, transform.rotation);
     }
 }
