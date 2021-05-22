@@ -4,23 +4,27 @@ using UnityEngine;
 
 public class siguiendoJugador : MonoBehaviour
 {
-    private Transform playerTransform;
-
-    public float offset;
-
-    // Start is called before the first frame update
-    void Start()
+    public Transform player;
+    [Range(1,10)] public float smoothFactor;
+    public Vector3 offset;
+    public Vector3 minValues, maxValues;
+    
+    
+    void FixedUpdate()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        seguirJugador();
     }
 
-    // Update is called once per frame
-    void LateUpdate()
+    void seguirJugador()
     {
-        Vector3 temp = transform.position;
-        temp.x = playerTransform.position.x;
-        temp.x += offset;
+        Vector3 targetPosition = player.position + offset;
+        //Esto verifica si se sale de los limites o no
+        Vector3 boundPosition = new Vector3(
+            Mathf.Clamp(targetPosition.x,minValues.x,maxValues.x),
+            Mathf.Clamp(targetPosition.y,minValues.y,maxValues.y),
+            Mathf.Clamp(targetPosition.z,minValues.z,maxValues.z));
 
-        transform.position = temp;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position,boundPosition,smoothFactor*Time.fixedDeltaTime);
+        transform.position = smoothedPosition;
     }
 }

@@ -23,7 +23,7 @@ public class MovimientoJugador : MonoBehaviour
     public int CantCorazones;
     public RectTransform posicionPrimerCorazon;
     public Canvas MyCanvas;
-    public int OffSet;
+    [SerializeField]private int OffSet;
     
     //Sistema de input
     private InputMaster controles;
