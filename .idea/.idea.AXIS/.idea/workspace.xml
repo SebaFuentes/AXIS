@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/proyectil.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/proyectil.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/cambios.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputMaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputMaster.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputMaster.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/disparador.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -44,6 +44,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/disparador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -106,6 +107,7 @@
       <workItem from="1621558474296" duration="4849000" />
       <workItem from="1621721457943" duration="411000" />
       <workItem from="1621721890128" duration="4802000" />
+      <workItem from="1621903323048" duration="2905000" />
     </task>
     <servers />
   </component>

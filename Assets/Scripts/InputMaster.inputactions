@@ -90,6 +90,41 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Menu",
+            "id": "1ea61092-fcd4-4072-85cf-2f02d5ed5319",
+            "actions": [
+                {
+                    "name": "Menu pausa",
+                    "type": "PassThrough",
+                    "id": "71337a69-9206-4b5d-ab0e-c7f7a71201af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Navegacion Menu",
+                    "type": "PassThrough",
+                    "id": "9c837b32-ba75-452b-8ef3-09b13aea986a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8f990f3e-ceb2-42a2-8dae-04075f951ee8",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Teclado y Mouse",
+                    "action": "Menu pausa",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -103,6 +103,41 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Menu"",
+            ""id"": ""1ea61092-fcd4-4072-85cf-2f02d5ed5319"",
+            ""actions"": [
+                {
+                    ""name"": ""Menu pausa"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""71337a69-9206-4b5d-ab0e-c7f7a71201af"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Navegacion Menu"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""9c837b32-ba75-452b-8ef3-09b13aea986a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""8f990f3e-ceb2-42a2-8dae-04075f951ee8"",
+                    ""path"": ""<Keyboard>/backquote"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": ""Teclado y Mouse"",
+                    ""action"": ""Menu pausa"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -128,6 +163,10 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_Jugador1 = asset.FindActionMap("Jugador 1", throwIfNotFound: true);
         m_Jugador1_Movimiento = m_Jugador1.FindAction("Movimiento", throwIfNotFound: true);
         m_Jugador1_Disparo = m_Jugador1.FindAction("Disparo", throwIfNotFound: true);
+        // Menu
+        m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
+        m_Menu_Menupausa = m_Menu.FindAction("Menu pausa", throwIfNotFound: true);
+        m_Menu_NavegacionMenu = m_Menu.FindAction("Navegacion Menu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -214,6 +253,47 @@ public class @InputMaster : IInputActionCollection, IDisposable
         }
     }
     public Jugador1Actions @Jugador1 => new Jugador1Actions(this);
+
+    // Menu
+    private readonly InputActionMap m_Menu;
+    private IMenuActions m_MenuActionsCallbackInterface;
+    private readonly InputAction m_Menu_Menupausa;
+    private readonly InputAction m_Menu_NavegacionMenu;
+    public struct MenuActions
+    {
+        private @InputMaster m_Wrapper;
+        public MenuActions(@InputMaster wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Menupausa => m_Wrapper.m_Menu_Menupausa;
+        public InputAction @NavegacionMenu => m_Wrapper.m_Menu_NavegacionMenu;
+        public InputActionMap Get() { return m_Wrapper.m_Menu; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MenuActions set) { return set.Get(); }
+        public void SetCallbacks(IMenuActions instance)
+        {
+            if (m_Wrapper.m_MenuActionsCallbackInterface != null)
+            {
+                @Menupausa.started -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenupausa;
+                @Menupausa.performed -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenupausa;
+                @Menupausa.canceled -= m_Wrapper.m_MenuActionsCallbackInterface.OnMenupausa;
+                @NavegacionMenu.started -= m_Wrapper.m_MenuActionsCallbackInterface.OnNavegacionMenu;
+                @NavegacionMenu.performed -= m_Wrapper.m_MenuActionsCallbackInterface.OnNavegacionMenu;
+                @NavegacionMenu.canceled -= m_Wrapper.m_MenuActionsCallbackInterface.OnNavegacionMenu;
+            }
+            m_Wrapper.m_MenuActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Menupausa.started += instance.OnMenupausa;
+                @Menupausa.performed += instance.OnMenupausa;
+                @Menupausa.canceled += instance.OnMenupausa;
+                @NavegacionMenu.started += instance.OnNavegacionMenu;
+                @NavegacionMenu.performed += instance.OnNavegacionMenu;
+                @NavegacionMenu.canceled += instance.OnNavegacionMenu;
+            }
+        }
+    }
+    public MenuActions @Menu => new MenuActions(this);
     private int m_TecladoyMouseSchemeIndex = -1;
     public InputControlScheme TecladoyMouseScheme
     {
@@ -227,5 +307,10 @@ public class @InputMaster : IInputActionCollection, IDisposable
     {
         void OnMovimiento(InputAction.CallbackContext context);
         void OnDisparo(InputAction.CallbackContext context);
+    }
+    public interface IMenuActions
+    {
+        void OnMenupausa(InputAction.CallbackContext context);
+        void OnNavegacionMenu(InputAction.CallbackContext context);
     }
 }
