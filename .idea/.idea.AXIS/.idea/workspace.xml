@@ -6,12 +6,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Escenario 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputMaster.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputMaster.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +107,7 @@
       <workItem from="1621721457943" duration="411000" />
       <workItem from="1621721890128" duration="4802000" />
       <workItem from="1621903323048" duration="2905000" />
+      <workItem from="1622076265891" duration="2569000" />
     </task>
     <servers />
   </component>

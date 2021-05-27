@@ -97,7 +97,7 @@
             "actions": [
                 {
                     "name": "Menu pausa",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "71337a69-9206-4b5d-ab0e-c7f7a71201af",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -116,7 +116,7 @@
                 {
                     "name": "",
                     "id": "8f990f3e-ceb2-42a2-8dae-04075f951ee8",
-                    "path": "<Keyboard>/backquote",
+                    "path": "<Keyboard>/escape",
                     "interactions": "Press",
                     "processors": "",
                     "groups": "Teclado y Mouse",
