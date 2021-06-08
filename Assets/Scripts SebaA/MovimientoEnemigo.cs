@@ -31,3 +31,4 @@ public class MovimientoEnemigo : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position,lineOfSite);
     }
 }
+
