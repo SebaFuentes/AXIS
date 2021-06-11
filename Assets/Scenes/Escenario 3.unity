@@ -261,5 +261,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid3
       objectReference: {fileID: 0}
+    - target: {fileID: 7765391259609746717, guid: 4892b90f65c84094e9cd6dddb0d538b3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765391260565528682, guid: 4892b90f65c84094e9cd6dddb0d538b3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4892b90f65c84094e9cd6dddb0d538b3, type: 3}
