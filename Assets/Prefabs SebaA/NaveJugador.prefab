@@ -48,11 +48,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 350
+  speed: 12
   rotationInterpolation: 0.4
   isMoving: 0
-  VidaTexto: {fileID: 0}
-  Vida: 50
+  Corazon: {fileID: 0}
+  CantCorazones: 0
+  posicionPrimerCorazon: {fileID: 0}
+  MyCanvas: {fileID: 0}
+  OffSet: 0
 --- !u!212 &1091515772433699938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,7 +95,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5559150632450785296, guid: 8aeb9e233fbb8f14db39770841b78b94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

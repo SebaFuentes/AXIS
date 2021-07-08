@@ -14,10 +14,6 @@ public class MovimientoJugador : MonoBehaviour
     public bool isMoving;
     private float shipAngle;
     
-    //Vida con texto
-    public TextMeshProUGUI VidaTexto;
-    public int Vida = 100;
-    
     //Vida con corazones
     public Image Corazon;
     public int CantCorazones;
@@ -46,9 +42,6 @@ public class MovimientoJugador : MonoBehaviour
 
     void Start()
     {
-        //Muestra en pantalla la vida
-        VidaTexto.text = "Vida: " + Vida;
-
         //Dibuja los corazones en pantalla
         Transform PosCorazon = posicionPrimerCorazon;
         for (int i = 0; i < CantCorazones; i++)
@@ -61,15 +54,6 @@ public class MovimientoJugador : MonoBehaviour
     
     void Update()
     {
-        //Actualiza la cantidad de vida
-        VidaTexto.text = "Vida: " + Vida;
-        //Cuando la vida llega a 0
-        if (Vida<=0)
-        {
-            Debug.Log("Has muerto");
-            Destroy(gameObject);
-        }
-        
         //Cuando se queda sin corazones
         if (CantCorazones <= 0)
         {
@@ -122,9 +106,6 @@ public class MovimientoJugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Meteorito" || collision.gameObject.tag == "Enemigo")
         {
-            //Le resta vida al total
-            Vida -= 10;
-            
             //Le quita un corazon al activarse el collider
             Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
             CantCorazones -= 1;
