@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: b00d9eb98b17fe542b1c13ae8f2ce21d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4237654301039555793
+    second: Tile desierto_0
+  - first:
+      213: -5758073225218696456
+    second: Tile desierto_1
+  - first:
+      213: -2188521938323501462
+    second: Tile desierto_2
+  - first:
+      213: 6623403701105553294
+    second: Tile desierto_3
+  - first:
+      213: 2205134327411098854
+    second: Tile desierto_4
+  - first:
+      213: 8332601313047832165
+    second: Tile desierto_5
+  - first:
+      213: -3173785439201762042
+    second: Tile desierto_6
+  - first:
+      213: -2874337569004596783
+    second: Tile desierto_7
+  - first:
+      213: -8575273446276725316
+    second: Tile desierto_8
+  - first:
+      213: -7140283001641793286
+    second: Tile desierto_9
+  - first:
+      213: -385623507253652699
+    second: Tile desierto_10
+  - first:
+      213: 7989287012740783263
+    second: Tile desierto_11
+  - first:
+      213: 1025533445208738926
+    second: Tile desierto_12
+  - first:
+      213: -2184548419838481373
+    second: Tile desierto_13
+  - first:
+      213: -7543111603489763942
+    second: Tile desierto_14
+  - first:
+      213: -2733810797242884896
+    second: Tile desierto_15
+  - first:
+      213: 8685363712139121045
+    second: Tile desierto_16
+  - first:
+      213: -1626409086874792545
+    second: Tile desierto_17
+  - first:
+      213: 5228098436798560474
+    second: Tile desierto_18
+  - first:
+      213: 2006640833664335231
+    second: Tile desierto_19
+  - first:
+      213: 4246377129260687715
+    second: Tile desierto_20
+  - first:
+      213: 8624155701880280578
+    second: Tile desierto_21
+  - first:
+      213: 89719590881623953
+    second: Tile desierto_22
+  - first:
+      213: -4386849404546484278
+    second: Tile desierto_23
+  - first:
+      213: 6202231270677383697
+    second: Tile desierto_24
+  - first:
+      213: 5436333834584058137
+    second: Tile desierto_25
+  - first:
+      213: -8700304694986618262
+    second: Tile desierto_26
+  - first:
+      213: -6057605447673244191
+    second: Tile desierto_27
+  - first:
+      213: -1157499542266683888
+    second: Tile desierto_28
+  - first:
+      213: 4243642359074921346
+    second: Tile desierto_29
+  - first:
+      213: 1779234914408991632
+    second: Tile desierto_30
+  - first:
+      213: -6789214080963403673
+    second: Tile desierto_31
+  - first:
+      213: 1375861787288081259
+    second: Tile desierto_32
+  - first:
+      213: 4744099516243287121
+    second: Tile desierto_33
+  - first:
+      213: -4956266460393816690
+    second: Tile desierto_34
+  - first:
+      213: -6051896765994122741
+    second: Tile desierto_35
+  - first:
+      213: -2751288134154159199
+    second: Tile desierto_36
+  - first:
+      213: 5401726790988846065
+    second: Tile desierto_37
+  - first:
+      213: 552484846131299928
+    second: Tile desierto_38
+  - first:
+      213: -779482952737020052
+    second: Tile desierto_39
+  - first:
+      213: -6459695558172898507
+    second: Tile desierto_40
+  - first:
+      213: 8390189407117731224
+    second: Tile desierto_41
+  - first:
+      213: 2759548563312412460
+    second: Tile desierto_42
+  - first:
+      213: 6251008374740124382
+    second: Tile desierto_43
+  - first:
+      213: -4820212866505640956
+    second: Tile desierto_44
+  - first:
+      213: -8745404133836596488
+    second: Tile desierto_45
+  - first:
+      213: -114973766373549309
+    second: Tile desierto_46
+  - first:
+      213: 3196918074127924980
+    second: Tile desierto_47
+  - first:
+      213: 4976236501194641460
+    second: Tile desierto_48
+  - first:
+      213: 4227214649655111474
+    second: Tile desierto_49
+  - first:
+      213: 2930268973661664979
+    second: Tile desierto_50
+  - first:
+      213: 4247431929036260228
+    second: Tile desierto_51
+  - first:
+      213: 4168316049674177241
+    second: Tile desierto_52
+  - first:
+      213: -3334497264582069217
+    second: Tile desierto_53
+  - first:
+      213: 3433294562484339198
+    second: Tile desierto_54
+  - first:
+      213: 4640859549838110848
+    second: Tile desierto_55
+  - first:
+      213: 3343123874069434711
+    second: Tile desierto_56
+  - first:
+      213: 8411891055997641920
+    second: Tile desierto_57
+  - first:
+      213: -8053361459664343150
+    second: Tile desierto_58
+  - first:
+      213: 2473866182622280626
+    second: Tile desierto_59
+  - first:
+      213: 6540363831239817284
+    second: Tile desierto_60
+  - first:
+      213: 4810165237954005394
+    second: Tile desierto_61
+  - first:
+      213: 1119626258848115294
+    second: Tile desierto_62
+  - first:
+      213: -8837540759583606924
+    second: Tile desierto_63
+  - first:
+      213: -2583267008985083481
+    second: Tile desierto_64
+  - first:
+      213: -342147703820241260
+    second: Tile desierto_65
+  - first:
+      213: -8041349556968345577
+    second: Tile desierto_66
+  - first:
+      213: -43163975129491457
+    second: Tile desierto_67
+  - first:
+      213: -8420100563609090052
+    second: Tile desierto_68
+  - first:
+      213: 7535470174890375330
+    second: Tile desierto_69
+  - first:
+      213: 4833443756901267258
+    second: Tile desierto_70
+  - first:
+      213: -7614793839355740296
+    second: Tile desierto_71
+  - first:
+      213: -3370625387143284006
+    second: Tile desierto_72
+  - first:
+      213: 807100888403363520
+    second: Tile desierto_73
+  - first:
+      213: -6154793280854499160
+    second: Tile desierto_74
+  - first:
+      213: -3539349250354895015
+    second: Tile desierto_75
+  - first:
+      213: -1603376683621056548
+    second: Tile desierto_76
+  - first:
+      213: 1028972866320420408
+    second: Tile desierto_77
+  - first:
+      213: -8837502251313527840
+    second: Tile desierto_78
+  - first:
+      213: 1368054244117046861
+    second: Tile desierto_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile desierto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d47e5e722c2fca30800000000000000
+      internalID: 4237654301039555793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad624c8e63710b0800000000000000
+      internalID: -5758073225218696456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e041374eec0a1e0800000000000000
+      internalID: -2188521938323501462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f6768e29e0beb50800000000000000
+      internalID: 6623403701105553294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4cb5bccf53a9e10800000000000000
+      internalID: 2205134327411098854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5666b270fb853a370800000000000000
+      internalID: 8332601313047832165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605621f55f274f3d0800000000000000
+      internalID: -3173785439201762042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1dbeab53d4c18d0800000000000000
+      internalID: -2874337569004596783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb506defb328ef880800000000000000
+      internalID: -8575273446276725316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_9
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8816bd07e98ec90800000000000000
+      internalID: -7140283001641793286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5231b19967df5aaf0800000000000000
+      internalID: -385623507253652699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c5e038536afde60800000000000000
+      internalID: 7989287012740783263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c03f22c3d6b3e00800000000000000
+      internalID: 1025533445208738926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_13
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 265
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce2e059cceea1e0800000000000000
+      internalID: -2184548419838481373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8dd436fb715790800000000000000
+      internalID: -7543111603489763942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecd533709d8f0ad0800000000000000
+      internalID: -2733810797242884896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 215
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591de17774c988870800000000000000
+      internalID: 8685363712139121045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4c557d85dd69e0800000000000000
+      internalID: -1626409086874792545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 215
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8372024dfed8840800000000000000
+      internalID: 5228098436798560474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d3b52e43509db10800000000000000
+      internalID: 2006640833664335231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 215
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3612de330892eea30800000000000000
+      internalID: 4246377129260687715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 215
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206db3a0be72fa770800000000000000
+      internalID: 8624155701880280578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f74e71e7fbe3100800000000000000
+      internalID: 89719590881623953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_23
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 215
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac77fd685b7ce13c0800000000000000
+      internalID: -4386849404546484278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_24
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a8b87da70c21650800000000000000
+      internalID: 6202231270677383697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_25
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 215
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919e1d2d1dcb17b40800000000000000
+      internalID: 5436333834584058137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_26
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 215
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ac8a1e9fe424780800000000000000
+      internalID: -8700304694986618262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_27
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 215
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e517fd90ff0feba0800000000000000
+      internalID: -6057605447673244191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e548b8c4cbfefe0800000000000000
+      internalID: -1157499542266683888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b1676ed3274ea30800000000000000
+      internalID: 4243642359074921346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b02555abc11b810800000000000000
+      internalID: 1779234914408991632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a810a3cdd7c1a0800000000000000
+      internalID: -6789214080963403673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b631753810b081310800000000000000
+      internalID: 1375861787288081259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_33
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c98ccef5d66d140800000000000000
+      internalID: 4744099516243287121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d3b08e9edc73bb0800000000000000
+      internalID: -4956266460393816690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_35
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02c595a4f7530ca0800000000000000
+      internalID: -6051896765994122741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_36
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab7ef8d40671d9d0800000000000000
+      internalID: -2751288134154159199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_37
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3d99695e9c6fa40800000000000000
+      internalID: 5401726790988846065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_38
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85641755a02daa700800000000000000
+      internalID: 552484846131299928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_39
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 161
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6723a56268be25f0800000000000000
+      internalID: -779482952737020052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b8fe16d1d8a56a0800000000000000
+      internalID: -6459695558172898507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8956f7900d0ff6470800000000000000
+      internalID: 8390189407117731224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 113
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270da03cc2eb4620800000000000000
+      internalID: 2759548563312412460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 111
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed280606ffa00c650800000000000000
+      internalID: 6251008374740124382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 113
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404f92ebfe92b1db0800000000000000
+      internalID: -4820212866505640956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_45
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fadf61864512a680800000000000000
+      internalID: -8745404133836596488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_46
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd0d8f7f7876ef0800000000000000
+      internalID: -114973766373549309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_47
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4febb68ec0cbd5c20800000000000000
+      internalID: 3196918074127924980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_48
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4301a0c8bb42f0540800000000000000
+      internalID: 4976236501194641460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_49
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f250eb3551aaa30800000000000000
+      internalID: 4227214649655111474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_50
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 123
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6b3773b186aa820800000000000000
+      internalID: 2930268973661664979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_51
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 123
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483cbd9e5d8e1fa30800000000000000
+      internalID: 4247431929036260228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_52
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 107
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da836ccc55d8d930800000000000000
+      internalID: 4168316049674177241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_53
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 107
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f210a76c79b1d0800000000000000
+      internalID: -3334497264582069217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 53
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c826d63385af20800000000000000
+      internalID: 3433294562484339198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_55
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 83
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08074981c25a76040800000000000000
+      internalID: 4640859549838110848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 59
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751590a6379256e20800000000000000
+      internalID: 3343123874069434711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_57
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 57
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4660ae85a0db470800000000000000
+      internalID: 8411891055997641920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 59
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fa2e4cb66bc3090800000000000000
+      internalID: -8053361459664343150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_59
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 83
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb7d0d9f20f45220800000000000000
+      internalID: 2473866182622280626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_60
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 53
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448bcde804a04ca50800000000000000
+      internalID: 6540363831239817284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_61
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2994e2f6cc321c240800000000000000
+      internalID: 4810165237954005394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_62
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 77
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a67df7626b98f00800000000000000
+      internalID: 1119626258848115294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_63
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477bbf0a08fba5580800000000000000
+      internalID: -8837540759583606924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_64
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a155719754662cd0800000000000000
+      internalID: -2583267008985083481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_65
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963415e972704bf0800000000000000
+      internalID: -342147703820241260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_66
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 77
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710382ece23676090800000000000000
+      internalID: -8041349556968345577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_67
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71053e796a66ff0800000000000000
+      internalID: -43163975129491457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf78305262bc52b80800000000000000
+      internalID: -8420100563609090052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a834ed033e539860800000000000000
+      internalID: 7535470174890375330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37fdebfc77d31340800000000000000
+      internalID: 4833443756901267258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f3e571951d25690800000000000000
+      internalID: -7614793839355740296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_72
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 6
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada396891122931d0800000000000000
+      internalID: -3370625387143284006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_73
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c64f275bf5633b00800000000000000
+      internalID: 807100888403363520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_74
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0e4bcde18c59aa0800000000000000
+      internalID: -6154793280854499160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_75
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9572d8ceb94b1eec0800000000000000
+      internalID: -3539349250354895015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_76
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf7f9bb669afb9e0800000000000000
+      internalID: -1603376683621056548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_77
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e4b84ce55a74e00800000000000000
+      internalID: 1028972866320420408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_78
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e30eb88682ea5580800000000000000
+      internalID: -8837502251313527840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile desierto_79
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46ef06361e4cf210800000000000000
+      internalID: 1368054244117046861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
