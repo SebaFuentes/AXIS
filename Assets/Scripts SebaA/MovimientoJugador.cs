@@ -112,7 +112,6 @@ public class MovimientoJugador : MonoBehaviour
             
             //Destruye al meteorito/enemigo
             Destroy(collision.gameObject);
-            
         }
     }
 }
