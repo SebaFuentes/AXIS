@@ -15,11 +15,11 @@ E:/Unity/GitHub/GitHub/AXIS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63648
+63972
 Successfully changed project path to: E:/Unity/GitHub/GitHub/AXIS
 E:/Unity/GitHub/GitHub/AXIS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 390.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 218.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,79 +35,163 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006149 seconds.
+Registered in 0.006178 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 185.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 310.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.599 seconds
+- Completed reload, in  2.398 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002212 seconds.
+Registered in 0.004119 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 206.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 159.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
+- Completed reload, in  2.261 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.56 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.8 MB.
 System memory in use after: 104.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2583.
-Total: 4.769300 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.267200 ms MarkObjects: 3.948800 ms  DeleteObjects: 0.168900 ms)
+Total: 4.438400 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.196500 ms MarkObjects: 3.777500 ms  DeleteObjects: 0.140800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Escenas AXIS/cambios.unity
-  artifactKey: Guid(09e13c2e89baf7249b0bbe9cda82ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Escenas AXIS/cambios.unity using Guid(09e13c2e89baf7249b0bbe9cda82ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acc86aa1fe86a2c8585424b685052f7') in 0.031494 seconds
-  Import took 0.039374 seconds .
+  path: Assets/Escenas AXIS/Escenario 2.unity
+  artifactKey: Guid(01c23b226aba1c24f9b6d0edc828431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Escenas AXIS/Escenario 2.unity using Guid(01c23b226aba1c24f9b6d0edc828431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf18d25c49d76e3995ecacd1f724db9') in 0.031715 seconds
+  Import took 0.042736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.354330 seconds.
-  path: Assets/Scripts SebaA/MovimientoJugador.cs
-  artifactKey: Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts SebaA/MovimientoJugador.cs using Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc48ee2c444e79cc0459eaf3f8fc4d01') in 0.250778 seconds
-  Import took 0.266105 seconds .
+  Time since last request: 13.745872 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9647463a15b323a45438b990504c50a') in 0.077516 seconds
+  Import took 0.086470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 449.628271 seconds.
-  path: Assets/Scripts SebaA/MovimientoJugador.cs
-  artifactKey: Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts SebaA/MovimientoJugador.cs using Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2a6b4fb63343537056f26b01723cfa') in 0.003202 seconds
-  Import took 0.010479 seconds .
+  Time since last request: 37.737877 seconds.
+  path: Assets/Scripts SebaA/destruccionMateoro.cs
+  artifactKey: Guid(9bbce289ac8cf0840bb5e032332f4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts SebaA/destruccionMateoro.cs using Guid(9bbce289ac8cf0840bb5e032332f4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b1b4e6a1fe48afc1273fa7a04ae85a') in 0.012893 seconds
+  Import took 0.021471 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001855 seconds.
+Registered in 0.002784 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.767 seconds
+- Completed reload, in  1.175 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.1 MB.
-System memory in use after: 103.2 MB.
+System memory in use after: 103.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 3.188200 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.653000 ms  DeleteObjects: 0.024400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 8.118000 ms (FindLiveObjects: 0.541800 ms CreateObjectMapping: 0.403300 ms MarkObjects: 7.097400 ms  DeleteObjects: 0.072000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.591 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 4.508200 ms (FindLiveObjects: 0.501800 ms CreateObjectMapping: 0.224400 ms MarkObjects: 3.736300 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.779804 seconds.
+  path: Assets/Prefabs SebaA/Enemigo.prefab
+  artifactKey: Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Enemigo.prefab using Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c2da47f220318072716481251f5469') in 0.197075 seconds
+  Import took 0.206560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.695188 seconds.
+  path: Assets/Prefabs SebaA/Enemigo.prefab
+  artifactKey: Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Enemigo.prefab using Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53860c2ecee9a1b2ea788538f3f6e424') in 0.029105 seconds
+  Import took 0.038913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 3.365900 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.235000 ms MarkObjects: 2.799600 ms  DeleteObjects: 0.032600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.307793 seconds.
+  path: Assets/Prefabs SebaA/Enemigo.prefab
+  artifactKey: Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Enemigo.prefab using Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0435913285616d93ccb6780302c4d4') in 0.115686 seconds
+  Import took 0.127234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2607.
+Total: 5.165500 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.283400 ms MarkObjects: 4.443100 ms  DeleteObjects: 0.045900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

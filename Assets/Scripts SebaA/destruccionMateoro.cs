@@ -15,5 +15,10 @@ public class destruccionMateoro : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+
+        if (collision.transform.CompareTag("Destruible"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
