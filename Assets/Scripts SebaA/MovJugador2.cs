@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class MovimientoJugador : MonoBehaviour
+public class MovJugador2 : MonoBehaviour
 {
     //Fisicas y rotacion
     public Rigidbody2D rb;
@@ -64,7 +64,7 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
+        Vector2 MoveInput = controles.Jugador2.Movimiento.ReadValue<Vector2>();
         rb.velocity = MoveInput * speed;
         if (MoveInput.x!=0 || MoveInput.y!=0)
         {
@@ -79,7 +79,7 @@ public class MovimientoJugador : MonoBehaviour
 
     void GetRotation()
     {
-        Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
+        Vector2 MoveInput = controles.Jugador2.Movimiento.ReadValue<Vector2>();
         Vector2 lookDir = new Vector2(-MoveInput.x, MoveInput.y);
         if (isMoving==true)
         {

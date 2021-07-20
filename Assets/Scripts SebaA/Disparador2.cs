@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class disparador : MonoBehaviour
+public class Disparador2 : MonoBehaviour
 {
     public GameObject proyectil;
     private float distancia;
@@ -26,7 +25,7 @@ public class disparador : MonoBehaviour
 
     void Start()
     {
-        controles.Jugador.Disparo.performed += ctx => disparo();
+        controles.Jugador2.Disparo.performed += ctx => disparo();
     }
     
     void FixedUpdate()

@@ -2,7 +2,7 @@
     "name": "InputMaster",
     "maps": [
         {
-            "name": "Jugador 1",
+            "name": "Jugador",
             "id": "fc063746-fb49-4bdd-a906-3ee8149a6a7e",
             "actions": [
                 {
@@ -121,6 +121,96 @@
                     "processors": "",
                     "groups": "Teclado y Mouse",
                     "action": "Menu pausa",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Jugador2",
+            "id": "4ebff427-3c54-4fbf-ae24-d6f8ba929c2c",
+            "actions": [
+                {
+                    "name": "Movimiento",
+                    "type": "PassThrough",
+                    "id": "8fefbe7a-8118-4350-aa58-75f7a54b05a7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Disparo",
+                    "type": "PassThrough",
+                    "id": "101bc9b6-74c6-4712-88c5-5305ae0fc478",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Flechas",
+                    "id": "dbb14afb-6e95-49a4-ac2d-1fbda2662177",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6c83ae88-2294-4183-b117-9786baa02d8e",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c9be939c-9393-47e9-9447-77218bb39f98",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "ef789df6-002e-4b9e-b16c-355309230dbb",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "88ee76ef-aade-4dca-b91f-95dd98a421e1",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8cb26992-1cdb-4d87-803b-74518059ebb2",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparo",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
