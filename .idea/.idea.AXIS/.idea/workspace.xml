@@ -3,19 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/AsterHuge1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/AsterHuge1 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/BordesVerticales.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/BordesVerticales.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Canvas1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Canvas1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Enemigo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Enemigo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/InputMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/InputMaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/InputMaster.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/InputMaster.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/disparador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/disparador.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +51,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/Menu Principal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/MovJugador2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/Disparador2.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -118,6 +129,11 @@
       <workItem from="1625620792252" duration="1743000" />
       <workItem from="1625703779444" duration="58000" />
       <workItem from="1625752548512" duration="1214000" />
+      <workItem from="1625868063287" duration="179000" />
+      <workItem from="1626483663449" duration="667000" />
+      <workItem from="1626733716746" duration="730000" />
+      <workItem from="1626750747360" duration="5356000" />
+      <workItem from="1626816172309" duration="5157000" />
     </task>
     <servers />
   </component>

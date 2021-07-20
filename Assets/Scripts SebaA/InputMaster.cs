@@ -15,7 +15,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
     ""name"": ""InputMaster"",
     ""maps"": [
         {
-            ""name"": ""Jugador 1"",
+            ""name"": ""Jugador"",
             ""id"": ""fc063746-fb49-4bdd-a906-3ee8149a6a7e"",
             ""actions"": [
                 {
@@ -138,6 +138,96 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Jugador2"",
+            ""id"": ""4ebff427-3c54-4fbf-ae24-d6f8ba929c2c"",
+            ""actions"": [
+                {
+                    ""name"": ""Movimiento"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""8fefbe7a-8118-4350-aa58-75f7a54b05a7"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Disparo"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""101bc9b6-74c6-4712-88c5-5305ae0fc478"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""Flechas"",
+                    ""id"": ""dbb14afb-6e95-49a4-ac2d-1fbda2662177"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movimiento"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""6c83ae88-2294-4183-b117-9786baa02d8e"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movimiento"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""c9be939c-9393-47e9-9447-77218bb39f98"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movimiento"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""ef789df6-002e-4b9e-b16c-355309230dbb"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movimiento"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""88ee76ef-aade-4dca-b91f-95dd98a421e1"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movimiento"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8cb26992-1cdb-4d87-803b-74518059ebb2"",
+                    ""path"": ""<Keyboard>/numpadPlus"",
+                    ""interactions"": ""Press"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Disparo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -159,14 +249,18 @@ public class @InputMaster : IInputActionCollection, IDisposable
         }
     ]
 }");
-        // Jugador 1
-        m_Jugador1 = asset.FindActionMap("Jugador 1", throwIfNotFound: true);
-        m_Jugador1_Movimiento = m_Jugador1.FindAction("Movimiento", throwIfNotFound: true);
-        m_Jugador1_Disparo = m_Jugador1.FindAction("Disparo", throwIfNotFound: true);
+        // Jugador
+        m_Jugador = asset.FindActionMap("Jugador", throwIfNotFound: true);
+        m_Jugador_Movimiento = m_Jugador.FindAction("Movimiento", throwIfNotFound: true);
+        m_Jugador_Disparo = m_Jugador.FindAction("Disparo", throwIfNotFound: true);
         // Menu
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_Menupausa = m_Menu.FindAction("Menu pausa", throwIfNotFound: true);
         m_Menu_NavegacionMenu = m_Menu.FindAction("Navegacion Menu", throwIfNotFound: true);
+        // Jugador2
+        m_Jugador2 = asset.FindActionMap("Jugador2", throwIfNotFound: true);
+        m_Jugador2_Movimiento = m_Jugador2.FindAction("Movimiento", throwIfNotFound: true);
+        m_Jugador2_Disparo = m_Jugador2.FindAction("Disparo", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -213,34 +307,34 @@ public class @InputMaster : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // Jugador 1
-    private readonly InputActionMap m_Jugador1;
-    private IJugador1Actions m_Jugador1ActionsCallbackInterface;
-    private readonly InputAction m_Jugador1_Movimiento;
-    private readonly InputAction m_Jugador1_Disparo;
-    public struct Jugador1Actions
+    // Jugador
+    private readonly InputActionMap m_Jugador;
+    private IJugadorActions m_JugadorActionsCallbackInterface;
+    private readonly InputAction m_Jugador_Movimiento;
+    private readonly InputAction m_Jugador_Disparo;
+    public struct JugadorActions
     {
         private @InputMaster m_Wrapper;
-        public Jugador1Actions(@InputMaster wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Movimiento => m_Wrapper.m_Jugador1_Movimiento;
-        public InputAction @Disparo => m_Wrapper.m_Jugador1_Disparo;
-        public InputActionMap Get() { return m_Wrapper.m_Jugador1; }
+        public JugadorActions(@InputMaster wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movimiento => m_Wrapper.m_Jugador_Movimiento;
+        public InputAction @Disparo => m_Wrapper.m_Jugador_Disparo;
+        public InputActionMap Get() { return m_Wrapper.m_Jugador; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(Jugador1Actions set) { return set.Get(); }
-        public void SetCallbacks(IJugador1Actions instance)
+        public static implicit operator InputActionMap(JugadorActions set) { return set.Get(); }
+        public void SetCallbacks(IJugadorActions instance)
         {
-            if (m_Wrapper.m_Jugador1ActionsCallbackInterface != null)
+            if (m_Wrapper.m_JugadorActionsCallbackInterface != null)
             {
-                @Movimiento.started -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnMovimiento;
-                @Movimiento.performed -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnMovimiento;
-                @Movimiento.canceled -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnMovimiento;
-                @Disparo.started -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnDisparo;
-                @Disparo.performed -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnDisparo;
-                @Disparo.canceled -= m_Wrapper.m_Jugador1ActionsCallbackInterface.OnDisparo;
+                @Movimiento.started -= m_Wrapper.m_JugadorActionsCallbackInterface.OnMovimiento;
+                @Movimiento.performed -= m_Wrapper.m_JugadorActionsCallbackInterface.OnMovimiento;
+                @Movimiento.canceled -= m_Wrapper.m_JugadorActionsCallbackInterface.OnMovimiento;
+                @Disparo.started -= m_Wrapper.m_JugadorActionsCallbackInterface.OnDisparo;
+                @Disparo.performed -= m_Wrapper.m_JugadorActionsCallbackInterface.OnDisparo;
+                @Disparo.canceled -= m_Wrapper.m_JugadorActionsCallbackInterface.OnDisparo;
             }
-            m_Wrapper.m_Jugador1ActionsCallbackInterface = instance;
+            m_Wrapper.m_JugadorActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Movimiento.started += instance.OnMovimiento;
@@ -252,7 +346,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
             }
         }
     }
-    public Jugador1Actions @Jugador1 => new Jugador1Actions(this);
+    public JugadorActions @Jugador => new JugadorActions(this);
 
     // Menu
     private readonly InputActionMap m_Menu;
@@ -294,6 +388,47 @@ public class @InputMaster : IInputActionCollection, IDisposable
         }
     }
     public MenuActions @Menu => new MenuActions(this);
+
+    // Jugador2
+    private readonly InputActionMap m_Jugador2;
+    private IJugador2Actions m_Jugador2ActionsCallbackInterface;
+    private readonly InputAction m_Jugador2_Movimiento;
+    private readonly InputAction m_Jugador2_Disparo;
+    public struct Jugador2Actions
+    {
+        private @InputMaster m_Wrapper;
+        public Jugador2Actions(@InputMaster wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movimiento => m_Wrapper.m_Jugador2_Movimiento;
+        public InputAction @Disparo => m_Wrapper.m_Jugador2_Disparo;
+        public InputActionMap Get() { return m_Wrapper.m_Jugador2; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(Jugador2Actions set) { return set.Get(); }
+        public void SetCallbacks(IJugador2Actions instance)
+        {
+            if (m_Wrapper.m_Jugador2ActionsCallbackInterface != null)
+            {
+                @Movimiento.started -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnMovimiento;
+                @Movimiento.performed -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnMovimiento;
+                @Movimiento.canceled -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnMovimiento;
+                @Disparo.started -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnDisparo;
+                @Disparo.performed -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnDisparo;
+                @Disparo.canceled -= m_Wrapper.m_Jugador2ActionsCallbackInterface.OnDisparo;
+            }
+            m_Wrapper.m_Jugador2ActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Movimiento.started += instance.OnMovimiento;
+                @Movimiento.performed += instance.OnMovimiento;
+                @Movimiento.canceled += instance.OnMovimiento;
+                @Disparo.started += instance.OnDisparo;
+                @Disparo.performed += instance.OnDisparo;
+                @Disparo.canceled += instance.OnDisparo;
+            }
+        }
+    }
+    public Jugador2Actions @Jugador2 => new Jugador2Actions(this);
     private int m_TecladoyMouseSchemeIndex = -1;
     public InputControlScheme TecladoyMouseScheme
     {
@@ -303,7 +438,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
             return asset.controlSchemes[m_TecladoyMouseSchemeIndex];
         }
     }
-    public interface IJugador1Actions
+    public interface IJugadorActions
     {
         void OnMovimiento(InputAction.CallbackContext context);
         void OnDisparo(InputAction.CallbackContext context);
@@ -312,5 +447,10 @@ public class @InputMaster : IInputActionCollection, IDisposable
     {
         void OnMenupausa(InputAction.CallbackContext context);
         void OnNavegacionMenu(InputAction.CallbackContext context);
+    }
+    public interface IJugador2Actions
+    {
+        void OnMovimiento(InputAction.CallbackContext context);
+        void OnDisparo(InputAction.CallbackContext context);
     }
 }

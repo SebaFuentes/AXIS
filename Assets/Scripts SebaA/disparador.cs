@@ -26,7 +26,7 @@ public class disparador : MonoBehaviour
 
     void Start()
     {
-        controles.Jugador1.Disparo.performed += ctx => disparo();
+        controles.Jugador.Disparo.performed += ctx => disparo();
     }
     
     void FixedUpdate()
