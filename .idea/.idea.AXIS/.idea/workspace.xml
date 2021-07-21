@@ -44,7 +44,9 @@
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoCalidad.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoEntreEscena.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -116,6 +118,7 @@
       <workItem from="1626483663449" duration="667000" />
       <workItem from="1626733716746" duration="730000" />
       <workItem from="1626750747360" duration="5356000" />
+      <workItem from="1626826434915" duration="9213000" />
     </task>
     <servers />
   </component>
