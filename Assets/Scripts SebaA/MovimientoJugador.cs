@@ -21,6 +21,10 @@ public class MovimientoJugador : MonoBehaviour
     public Canvas MyCanvas;
     [SerializeField]private int OffSet;
     
+    //Score por jugador
+    public int score;
+    public Text TXTscore;
+    
     //Sistema de input
     private InputMaster controles;
 
@@ -60,6 +64,9 @@ public class MovimientoJugador : MonoBehaviour
             Destroy(gameObject);
             Destroy(Corazon);
         }
+        
+        //Score por jugador
+        TXTscore.text = "Score: " + score;
     }
 
     private void FixedUpdate()
@@ -113,5 +120,26 @@ public class MovimientoJugador : MonoBehaviour
             //Destruye al meteorito/enemigo
             Destroy(collision.gameObject);
         }
+    }
+    
+    //Score por jugador
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Coin")
+        {
+            score++;
+            Destroy(collision.gameObject);
+        }
+        /*else if (collision.gameObject.tag == "Enemigo")
+        {
+            score = score+5
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.tag == "Meteorito")
+        {
+            score = score+5
+            Destroy(collision.gameObject);
+        }*/   //MEEQUIVOQUÉ, ESTO VA EN EL SCRIPT DE LA BALA Y EL MISMO TXT SCORE TAMBIÉN VA EN LA BALA
+        
     }
 }
