@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +113,7 @@
       <workItem from="1626483663449" duration="667000" />
       <workItem from="1626808644733" duration="18000" />
       <workItem from="1626907550118" duration="219000" />
+      <workItem from="1627049815950" duration="686000" />
     </task>
     <servers />
   </component>

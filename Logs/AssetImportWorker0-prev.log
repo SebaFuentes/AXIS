@@ -15,11 +15,11 @@ C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51550
+61837
 Successfully changed project path to: C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 172.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 246.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,155 +35,134 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002424 seconds.
+Registered in 0.002603 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 163.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 214.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.524 seconds
+- Completed reload, in  2.470 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002392 seconds.
+Registered in 0.005008 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 172.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 259.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.401 seconds
+- Completed reload, in  1.931 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.6 MB.
 System memory in use after: 105.6 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 3.082900 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.629300 ms  DeleteObjects: 0.097600 ms)
+Total: 5.533700 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.131400 ms MarkObjects: 4.802300 ms  DeleteObjects: 0.155800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animated 2D Coins
-  artifactKey: Guid(926ed2dabfd60b446a4ae5e3ad7fca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins using Guid(926ed2dabfd60b446a4ae5e3ad7fca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f654bb79f9036899ee646ca7d0e5ba32') in 0.012941 seconds
-  Import took 0.018047 seconds .
+  path: Assets/Sprites
+  artifactKey: Guid(14fefd60ebed7fc47b652872bd1e8d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(14fefd60ebed7fc47b652872bd1e8d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24428346a87fedd4efd6a15f48ef45b4') in 0.834251 seconds
+  Import took 0.857333 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 5.141900 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.127300 ms MarkObjects: 4.582900 ms  DeleteObjects: 0.037500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Animated 2D Coins/Prefab/EUR.prefab
-  artifactKey: Guid(0549d489ad7b5714ca2eec0140feeef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab/EUR.prefab using Guid(0549d489ad7b5714ca2eec0140feeef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b3a5ce47b3963a10a271beb30b9edb') in 0.047238 seconds
-  Import took 0.051490 seconds .
+  Time since last request: 1.717547 seconds.
+  path: Assets/Prefabs Arif uwu
+  artifactKey: Guid(cd1336a6c71af1a49bd98d23aeaa87ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu using Guid(cd1336a6c71af1a49bd98d23aeaa87ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c40b3ea8b82551a7ddd20d655b7676') in 0.018484 seconds
+  Import took 0.028362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Animated 2D Coins/Prefab/JPY.prefab
-  artifactKey: Guid(b8e7fde7b294b46449cd9ebe8530b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab/JPY.prefab using Guid(b8e7fde7b294b46449cd9ebe8530b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e3f6761909d1b699126c2c88786d74') in 0.010194 seconds
-  Import took 0.014667 seconds .
+  Time since last request: 4.937322 seconds.
+  path: Assets/Prefabs Arif uwu/USD_6x4_0.prefab
+  artifactKey: Guid(60bf7a474af0c444c81187dfdf79c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/USD_6x4_0.prefab using Guid(60bf7a474af0c444c81187dfdf79c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0e59eb67d3b6da2b420e7d92dd4a6c') in 0.318832 seconds
+  Import took 0.341096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Animated 2D Coins/Prefab/GBP.prefab
-  artifactKey: Guid(0654a34295c87b9488c6779e4ddd165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab/GBP.prefab using Guid(0654a34295c87b9488c6779e4ddd165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508e3add15547ae9d531f6ed21e8875d') in 0.010301 seconds
-  Import took 0.014521 seconds .
+  Time since last request: 18.105544 seconds.
+  path: Assets/Prefabs Arif uwu/Coin USD.prefab
+  artifactKey: Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Coin USD.prefab using Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f4d6e8ca7d717b0665dddefdf596c') in 0.037027 seconds
+  Import took 0.047567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Animated 2D Coins/Prefab/USD.prefab
-  artifactKey: Guid(8645a0f5dbe846a4bae22a67d2144035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab/USD.prefab using Guid(8645a0f5dbe846a4bae22a67d2144035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9741ea49e3530fefe18dac4c6411a42e') in 0.011509 seconds
-  Import took 0.016500 seconds .
+  Time since last request: 79.685753 seconds.
+  path: Assets/Scripts Arif uwu
+  artifactKey: Guid(71164579e4c10cc4a8d7cdcb680dd243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts Arif uwu using Guid(71164579e4c10cc4a8d7cdcb680dd243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34521034e721251590eee1bf28bbe4e1') in 0.017649 seconds
+  Import took 0.026982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Animated 2D Coins/Prefab/UAH.prefab
-  artifactKey: Guid(fed683c4b3747f641ad0b7ffe2e286d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab/UAH.prefab using Guid(fed683c4b3747f641ad0b7ffe2e286d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc72e541f7b2a0574a50200dbfb07d2') in 0.012383 seconds
-  Import took 0.017894 seconds .
+  Time since last request: 15.194117 seconds.
+  path: Assets/Scripts Arif uwu/Pasa niveles.cs
+  artifactKey: Guid(2b6b81da359c3404a920e64ece02cff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts Arif uwu/Pasa niveles.cs using Guid(2b6b81da359c3404a920e64ece02cff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358d3ca6108473ca8cd416cbc760b16f') in 0.021932 seconds
+  Import took 0.030324 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Animated 2D Coins/Prefab
-  artifactKey: Guid(f7be1faf97e097541a6a381ab3ef8b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Prefab using Guid(f7be1faf97e097541a6a381ab3ef8b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df96c82d76902490b87ca8c82a9191d6') in 0.010029 seconds
-  Import took 0.014330 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2597.
+Total: 5.435300 ms (FindLiveObjects: 0.775400 ms CreateObjectMapping: 0.258000 ms MarkObjects: 4.358300 ms  DeleteObjects: 0.040000 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 65.551965 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet
-  artifactKey: Guid(fb6387d86badeda4c96dead7c2830a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet using Guid(fb6387d86badeda4c96dead7c2830a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0641bc3a090aca21efaf70d53f66380e') in 0.010181 seconds
-  Import took 0.014922 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044810 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/EUR_6x4.png
-  artifactKey: Guid(568bc9ecebe5bd946a601aea36334ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/EUR_6x4.png using Guid(568bc9ecebe5bd946a601aea36334ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639b1fd92fd0b71dd8c057e1e63afc3b') in 0.174989 seconds
-  Import took 0.179652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/USD_6x4.png
-  artifactKey: Guid(7ead8ba5dc6d79f4da1cc2f449bde712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/USD_6x4.png using Guid(7ead8ba5dc6d79f4da1cc2f449bde712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090fa27b3d40b6157dba54d148f034ef') in 0.097171 seconds
-  Import took 0.101537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/UAH_6x4.png
-  artifactKey: Guid(1ef2a1a0ee1bc204891ec7e6ee9e03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/UAH_6x4.png using Guid(1ef2a1a0ee1bc204891ec7e6ee9e03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2389b392903e3874073e887533876e') in 0.105800 seconds
-  Import took 0.110691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/GBP_6x4.png
-  artifactKey: Guid(fd4d6fe9efaae5e4eaf33aa14b7adcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/GBP_6x4.png using Guid(fd4d6fe9efaae5e4eaf33aa14b7adcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed8bef19d45cfbe1a0fcb17222bfb45') in 0.100517 seconds
-  Import took 0.104889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/JPY_6x4.png
-  artifactKey: Guid(7a64d093929a4bc45ae1993d93258ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/JPY_6x4.png using Guid(7a64d093929a4bc45ae1993d93258ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab08d4230a4771f575f20fdda9a40c7') in 0.097337 seconds
-  Import took 0.102353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.179035 seconds.
-  path: Assets/Animated 2D Coins/Scene
-  artifactKey: Guid(0a1049c2765c6e046919f6dc76a0106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Scene using Guid(0a1049c2765c6e046919f6dc76a0106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b06e8df83c61483a2e7db1cfde9c46') in 0.009071 seconds
-  Import took 0.013679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.070427 seconds.
-  path: Assets/Animated 2D Coins/Animation
-  artifactKey: Guid(ce492e21d099b6248b19110b0af929b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Animation using Guid(ce492e21d099b6248b19110b0af929b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c40729ab4a5103d66b03c14f7860cc') in 0.009687 seconds
-  Import took 0.013975 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 4.136900 ms (FindLiveObjects: 0.513200 ms CreateObjectMapping: 0.072500 ms MarkObjects: 3.519700 ms  DeleteObjects: 0.029700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
