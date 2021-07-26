@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class MovimientoJugador : MonoBehaviour
 {
@@ -109,6 +110,7 @@ public class MovimientoJugador : MonoBehaviour
             //Le quita un corazon al activarse el collider
             Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
             CantCorazones -= 1;
+          
             
             //Destruye al meteorito/enemigo
             Destroy(collision.gameObject);
