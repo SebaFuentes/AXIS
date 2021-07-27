@@ -9,11 +9,13 @@ public class destruccionMateoro : MonoBehaviour
         if(collision.transform.CompareTag("Meteorito"))
         {
             Destroy(collision.gameObject);
+            PuntajeJugador.score += 2;
         }
 
         if (collision.transform.CompareTag("Enemigo"))
         {
             Destroy(collision.gameObject);
+            PuntajeJugador.score += 5;
         }
     }
 }

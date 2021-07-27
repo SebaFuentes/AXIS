@@ -18,7 +18,7 @@ public class MovimientoEnemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distanceFromPlayer = Vector2.Distance(player.position,transform.position);
+        float distanceFromPlayer = Vector2.Distance(player.position,transform.position); // recomienda usar var???
         if (distanceFromPlayer < lineOfSite)
         {
             transform.position = Vector2.MoveTowards(this.transform.position,player.position,speed*Time.deltaTime);
