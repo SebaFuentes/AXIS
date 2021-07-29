@@ -114,4 +114,17 @@ public class MovJugador2 : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("DisparoJefe"))
+        {
+            //Le quita un corazon al activarse el collider
+            Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
+            CantCorazones -= 1;
+            
+            //Destruye el disparo
+            Destroy(collision.gameObject);
+        }
+    }
 }

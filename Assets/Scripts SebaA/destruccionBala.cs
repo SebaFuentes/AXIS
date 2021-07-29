@@ -15,7 +15,7 @@ public class destruccionBala : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Bala"))
+        if (collision.transform.CompareTag("Bala") || collision.transform.CompareTag("DisparoJefe"))
         {
             Destroy(collision.gameObject);
         }

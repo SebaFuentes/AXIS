@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="" />
+    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +29,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts SebaA/disparoJefe.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -37,8 +44,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/Menu Principal.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
@@ -47,6 +52,12 @@
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoCalidad.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoEntreEscena.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparoJefe.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
+      <option value="$PROJECT_DIR$/Assets/disparadorJefe.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -121,6 +132,7 @@
       <workItem from="1626826434915" duration="9213000" />
       <workItem from="1627074901960" duration="789000" />
       <workItem from="1627592136168" duration="88000" />
+      <workItem from="1627595640602" duration="4942000" />
     </task>
     <servers />
   </component>

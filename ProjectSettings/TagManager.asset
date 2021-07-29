@@ -9,6 +9,7 @@ TagManager:
   - Enemigo
   - Destruible
   - opciones
+  - DisparoJefe
   layers:
   - Default
   - TransparentFX
