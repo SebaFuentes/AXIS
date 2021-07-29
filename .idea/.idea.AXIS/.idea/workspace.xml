@@ -19,11 +19,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/CodigoBrillo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,12 +39,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/Menu Principal.cs" />
-      <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoCalidad.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoEntreEscena.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/LogicaEntreEscenas.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/Controlador de opciones.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/Logicajuego.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaOpciones.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaEntreEscenas.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -119,6 +122,7 @@
       <workItem from="1626733716746" duration="730000" />
       <workItem from="1626750747360" duration="5356000" />
       <workItem from="1626826434915" duration="9213000" />
+      <workItem from="1627530375924" duration="7049000" />
     </task>
     <servers />
   </component>
