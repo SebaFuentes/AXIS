@@ -19,7 +19,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/ControladorOpciones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaOpciones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/UI/InputSystemUIInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/CodigoBrillo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,8 +51,11 @@
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/Controlador de opciones.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/Logicajuego.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
-      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaOpciones.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaEntreEscenas.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/MenuPrincipal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/Controladordeopciones.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/ControladorOpciones.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/LogicaOpciones.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -123,6 +129,7 @@
       <workItem from="1626750747360" duration="5356000" />
       <workItem from="1626826434915" duration="9213000" />
       <workItem from="1627530375924" duration="7049000" />
+      <workItem from="1627577141593" duration="6805000" />
     </task>
     <servers />
   </component>
