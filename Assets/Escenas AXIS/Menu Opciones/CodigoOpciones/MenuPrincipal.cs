@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class MenuPrincipal : MonoBehaviour
 {
@@ -26,6 +28,9 @@ public class MenuPrincipal : MonoBehaviour
       Application.Quit();  
         Debug.Log("salir");
     }
-
+    public void CambiarEscena()
+    {
+        SceneManager.LoadScene(1);
+    }
 
 }
