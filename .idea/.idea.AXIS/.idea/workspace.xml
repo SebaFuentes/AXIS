@@ -4,14 +4,10 @@
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Coin USD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Coin USD.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts Arif uwu/CoinCollected.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts Arif uwu/CoinCollected.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts Arif uwu/PuntajeJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts Arif uwu/PuntajeJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +54,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts Arif uwu/PuntajePlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts Arif uwu/Puntaje.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts Arif uwu/CoinCollected.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts Arif uwu/PuntajeJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts Arif uwu/CoinCollected.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />

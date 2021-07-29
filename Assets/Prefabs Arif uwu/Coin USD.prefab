@@ -235,3 +235,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56554e7241b745c4497826b11e44f18d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SonidoCoin: {fileID: 7895116305264588596, guid: bba8e2fb47905a945b723dd5ba9ef593, type: 3}
