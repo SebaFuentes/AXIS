@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/importar/animacion desparecer.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +66,9 @@
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" />
       <option value="$PROJECT_DIR$/Assets/iniciarPelea.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -144,6 +149,7 @@
       <workItem from="1627616026556" duration="8841000" />
       <workItem from="1627629141601" duration="2149000" />
       <workItem from="1627662462714" duration="869000" />
+      <workItem from="1627666984680" duration="855000" />
     </task>
     <servers />
   </component>

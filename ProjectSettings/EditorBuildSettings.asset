@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escenas AXIS/Escenario 4.unity
     guid: ab994a89dc1539249828f134d5304d29
+  - enabled: 1
+    path: Assets/Escenas AXIS/Escenario 6.unity
+    guid: b7bca1a236f443e47a09bdc5edc70877
   m_configObjects: {}

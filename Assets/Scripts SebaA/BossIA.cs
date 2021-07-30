@@ -9,8 +9,6 @@ public class BossIA : MonoBehaviour
     public VidaJefe vida;
     public float VidaMaxima = 200;
     public float Vida = 200;
-    public GameObject jugadorS;
-    public GameObject multi;
 
     private void Start()
     {
@@ -21,8 +19,6 @@ public class BossIA : MonoBehaviour
     {
         if (Vida <= 0)
         {
-            jugadorS.SetActive(true);
-            multi.SetActive(true);
             Destroy(gameObject);
         }
     }

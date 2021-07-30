@@ -612,3 +612,5 @@ MonoBehaviour:
   vida: {fileID: 1397430702}
   VidaMaxima: 200
   Vida: 200
+  jugadorS: {fileID: 0}
+  multi: {fileID: 0}
