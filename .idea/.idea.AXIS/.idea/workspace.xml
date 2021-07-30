@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +136,7 @@
       <workItem from="1627616026556" duration="8841000" />
       <workItem from="1627629141601" duration="2149000" />
       <workItem from="1627662462714" duration="869000" />
-      <workItem from="1627666984680" duration="855000" />
+      <workItem from="1627666984680" duration="894000" />
     </task>
     <servers />
   </component>
