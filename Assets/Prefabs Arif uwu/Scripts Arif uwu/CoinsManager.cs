@@ -19,6 +19,7 @@ public class CoinsManager : MonoBehaviour
         if (transform.childCount == 0)
         {
           Debug.Log("Victoria, no quedan mas monedas");
+          Time.timeScale = 0;
           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
     }

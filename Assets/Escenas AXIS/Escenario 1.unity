@@ -9851,6 +9851,10 @@ PrefabInstance:
       propertyPath: TXTscore
       value: 
       objectReference: {fileID: 2087226662}
+    - target: {fileID: 653530846804327221, guid: 649777b1fe23d1c498d8cae3c5104551, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 653530846804327223, guid: 649777b1fe23d1c498d8cae3c5104551, type: 3}
       propertyPath: gameOver
       value: 
