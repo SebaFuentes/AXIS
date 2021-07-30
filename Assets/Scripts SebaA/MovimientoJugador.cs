@@ -21,13 +21,13 @@ public class MovimientoJugador : MonoBehaviour
     public Canvas MyCanvas;
     [SerializeField]private int OffSet;
     
-    //Score por jugador
-    public int score;
-    public Text TXTscore;
-    
     //Sistema de input
     private InputMaster controles;
 
+    //Score por jugador
+    public int score = 0; //CUANDO SE LO MANDÉ A ARIF ERA PRIVATE
+    public Text TXTscore;
+    
     private void Awake()
     {
         controles = new InputMaster();
@@ -64,82 +64,78 @@ public class MovimientoJugador : MonoBehaviour
             Destroy(gameObject);
             Destroy(Corazon);
         }
-        
-        //Score por jugador
-        TXTscore.text = "Score: " + score;
     }
 
-    private void FixedUpdate()
-    {
-        Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
-        rb.velocity = MoveInput * speed;
-        if (MoveInput.x!=0 || MoveInput.y!=0)
-        {
-            isMoving = true;
-        }
-        else
-        {
-            isMoving = false;
-        }
-        GetRotation();
-    }
+private void FixedUpdate()
+{
+ Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
+ rb.velocity = MoveInput * speed;
+ if (MoveInput.x!=0 || MoveInput.y!=0)
+ {
+     isMoving = true;
+ }
+ else
+ {
+     isMoving = false;
+ }
+ GetRotation();
+}
 
-    void GetRotation()
-    {
-        Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
-        Vector2 lookDir = new Vector2(-MoveInput.x, MoveInput.y);
-        if (isMoving==true)
-        {
-            shipAngle = Mathf.Atan2(lookDir.x, lookDir.y)* Mathf.Rad2Deg;
-        }
-        
-        if (rb.rotation<=-90 && shipAngle>=90)
-        {
-            rb.rotation += 360;
-            rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);
-        }
-        else if (rb.rotation>=90 && shipAngle<=-90)
-        {
-            rb.rotation -= 360;
-            rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);
-        }
-        else
-        {
-            rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);  
-        }
-    }
+void GetRotation()
+{
+ Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
+ Vector2 lookDir = new Vector2(-MoveInput.x, MoveInput.y);
+ if (isMoving==true)
+ {
+     shipAngle = Mathf.Atan2(lookDir.x, lookDir.y)* Mathf.Rad2Deg;
+ }
+ 
+ if (rb.rotation<=-90 && shipAngle>=90)
+ {
+     rb.rotation += 360;
+     rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);
+ }
+ else if (rb.rotation>=90 && shipAngle<=-90)
+ {
+     rb.rotation -= 360;
+     rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);
+ }
+ else
+ {
+     rb.rotation = Mathf.Lerp(rb.rotation, shipAngle,rotationInterpolation);  
+ }
+}
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Meteorito" || collision.gameObject.tag == "Enemigo")
-        {
-            //Le quita un corazon al activarse el collider
-            Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
-            CantCorazones -= 1;
-            
-            //Destruye al meteorito/enemigo
-            Destroy(collision.gameObject);
-        }
-    }
-    
+private void OnCollisionEnter2D(Collision2D collision)
+{
+ if (collision.gameObject.tag == "Meteorito" || collision.gameObject.tag == "Enemigo")
+ {
+     //Le quita un corazon al activarse el collider
+     Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
+     CantCorazones -= 1;
+     
+     //Destruye al meteorito/enemigo
+     Destroy(collision.gameObject);
+ }
+}
+
     //Score por jugador
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Coin")
         {
             score++;
+            TXTscore.text = "Score: " + score.ToString();
             Destroy(collision.gameObject);
         }
-        /*else if (collision.gameObject.tag == "Enemigo")
-        {
-            score = score+5
-            Destroy(collision.gameObject);
-        }
-        else if (collision.gameObject.tag == "Meteorito")
-        {
-            score = score+5
-            Destroy(collision.gameObject);
-        }*/   //MEEQUIVOQUÉ, ESTO VA EN EL SCRIPT DE LA BALA Y EL MISMO TXT SCORE TAMBIÉN VA EN LA BALA
-        
+    }    
+
+    //funcion para modficar score desde otro script
+    public void updateScore(int points)
+    {
+       Debug.Log ("updateScore"); 
+       score = score + points;
+       TXTscore.text = "Score: "+score.ToString();
     }
+    
 }

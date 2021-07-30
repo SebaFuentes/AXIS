@@ -20,9 +20,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JaviPrefabs/HighScoreTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoBrillo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JaviPrefabs/Checkground.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JaviPrefabs/Coincollected.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,8 +40,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/siguiendoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/Menu Principal.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/MenuPrincipal.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoVolumen.cs" />
@@ -46,7 +47,15 @@
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoCalidad.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoEntreEscena.cs" />
+      <option value="$PROJECT_DIR$/Assets/JaviPrefabs/Checkground.cs" />
+      <option value="$PROJECT_DIR$/Assets/JaviPrefabs/Coincollected.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
+      <option value="$PROJECT_DIR$/Assets/JaviPrefabs/ScoreScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparo2d.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/JaviPrefabs/HighScoreTable.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -120,6 +129,10 @@
       <workItem from="1626750747360" duration="5356000" />
       <workItem from="1626826434915" duration="9213000" />
       <workItem from="1627021003070" duration="2024000" />
+      <workItem from="1627050370945" duration="2473000" />
+      <workItem from="1627180669110" duration="3548000" />
+      <workItem from="1627313158555" duration="18437000" />
+      <workItem from="1627591065311" duration="18892000" />
     </task>
     <servers />
   </component>
