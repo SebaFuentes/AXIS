@@ -114,7 +114,7 @@ public class MovimientoJugador : MonoBehaviour
             //Le quita un corazon al activarse el collider
             Destroy(MyCanvas.transform.GetChild(CantCorazones + 1).gameObject);
             CantCorazones -= 1;
-            
+            PuntajeJugador.score -= 3;
             //Destruye al meteorito/enemigo
             Destroy(collision.gameObject);
         }
