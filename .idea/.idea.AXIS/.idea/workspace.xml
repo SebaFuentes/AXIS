@@ -3,10 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/importar/animacion desparecer.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +154,8 @@
       <workItem from="1627662462714" duration="869000" />
       <workItem from="1627666984680" duration="894000" />
       <workItem from="1627669563705" duration="566000" />
-      <workItem from="1627675474285" duration="833000" />
+      <workItem from="1627675474285" duration="978000" />
+      <workItem from="1627677914977" duration="1355000" />
     </task>
     <servers />
   </component>
