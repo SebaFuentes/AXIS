@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Player2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Player2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Prefabs SebaA/NaveJugador.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Prefabs SebaA/NaveJugador.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +132,7 @@
       <workItem from="1627074901960" duration="789000" />
       <workItem from="1627592136168" duration="88000" />
       <workItem from="1627595640602" duration="4942000" />
+      <workItem from="1627608665203" duration="1430000" />
     </task>
     <servers />
   </component>

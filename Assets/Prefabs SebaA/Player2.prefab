@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4439460778277751374}
   - component: {fileID: 4439460778277751376}
-  - component: {fileID: 4439460778277751377}
+  - component: {fileID: 6966238672494458431}
   m_Layer: 0
   m_Name: "ca\xF1on"
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4439460778277751377
+--- !u!114 &6966238672494458431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4439460778277751375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f33bda35fbeb2342974f67d728c202f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a24385e40a5c954a86240f3abcbd11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   proyectil: {fileID: 8111810479569194727, guid: 58a17be3fcb77f5469709848cbadea4f, type: 3}
@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 6199267098276625533}
   - component: {fileID: 6199267098276625532}
   - component: {fileID: 6426055419501570858}
+  - component: {fileID: 1474808569}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -122,7 +123,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6199267098276625534}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.18, y: -3.3839922, z: 0.5946005}
   m_LocalScale: {x: 3.969028, y: 3.628703, z: 1}
   m_Children:
@@ -228,3 +229,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.49, y: 0.39861554}
   m_EdgeRadius: 0
+--- !u!114 &1474808569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199267098276625534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3766dab59a5e9ca4ca1cf7ab161dca88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 12
+  rotationInterpolation: 0.4
+  isMoving: 0
+  Corazon: {fileID: 0}
+  CantCorazones: 5
+  posicionPrimerCorazon: {fileID: 0}
+  MyCanvas: {fileID: 0}
+  OffSet: 32
