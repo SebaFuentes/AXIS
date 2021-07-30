@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossIA : MonoBehaviour
 {
@@ -17,9 +18,12 @@ public class BossIA : MonoBehaviour
 
     private void Update()
     {
+        
         if (Vida <= 0)
         {
+            
             Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
     }
 

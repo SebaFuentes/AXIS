@@ -20,7 +20,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/iniciarPelea.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -55,6 +54,7 @@
       <option value="$PROJECT_DIR$/Assets/iniciarPelea.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Final.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
     </changedPaths>
   </component>
@@ -137,6 +137,7 @@
       <workItem from="1627629141601" duration="2149000" />
       <workItem from="1627662462714" duration="869000" />
       <workItem from="1627666984680" duration="894000" />
+      <workItem from="1627669563705" duration="566000" />
     </task>
     <servers />
   </component>
