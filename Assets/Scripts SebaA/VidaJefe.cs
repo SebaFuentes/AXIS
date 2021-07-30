@@ -10,6 +10,7 @@ public class VidaJefe : MonoBehaviour
     public Color high;
     public Vector3 offSet;
 
+    //Actualiza la vida en el slider
     public void setHealth(float health,float maxHealth)
     {
         slider.gameObject.SetActive(health<maxHealth);

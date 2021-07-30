@@ -7,17 +7,18 @@ public class MovimientoEnemigo : MonoBehaviour
 {
     public float speed;
     public float lineOfSite;
-
+    
     private Transform player;
-    // Start is called before the first frame update
     void Start()
     {
+        //Busca al jugador
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        //Determina la distancia hacia el jugador
         float distanceFromPlayer = Vector2.Distance(player.position,transform.position);
         if (distanceFromPlayer < lineOfSite)
         {
@@ -25,6 +26,7 @@ public class MovimientoEnemigo : MonoBehaviour
         }
     }
 
+    //Determina el radio de deteccion del enemigo
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;

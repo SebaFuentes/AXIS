@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="" />
+    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +56,13 @@
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/ControladorOpciones.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/MenuPrincipal.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" />
       <option value="$PROJECT_DIR$/Assets/iniciarPelea.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionMateoro.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Final.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoEnemigo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -138,6 +145,7 @@
       <workItem from="1627662462714" duration="869000" />
       <workItem from="1627666984680" duration="894000" />
       <workItem from="1627669563705" duration="566000" />
+      <workItem from="1627675474285" duration="833000" />
     </task>
     <servers />
   </component>

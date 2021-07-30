@@ -60,7 +60,6 @@ public class MovimientoJugador : MonoBehaviour
         //Cuando se queda sin corazones
         if (CantCorazones <= 0)
         {
-            
             Destroy(gameObject);
             Destroy(Corazon);
             gameOver.SetActive(true);
@@ -70,6 +69,7 @@ public class MovimientoJugador : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 MoveInput = controles.Jugador.Movimiento.ReadValue<Vector2>();
+        //Ejecuta el movimiento
         rb.velocity = MoveInput * speed;
         if (MoveInput.x!=0 || MoveInput.y!=0)
         {
