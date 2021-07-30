@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="" />
+    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AXIS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/cambios.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/BalaJefe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/BalaJefe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs SebaA/Boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/iniciarPelea.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -43,7 +55,6 @@
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoCalidad.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoPantallaFull.cs" />
       <option value="$PROJECT_DIR$/Assets/Menu Opciones/CodigoEntreEscena.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparoJefe.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
       <option value="$PROJECT_DIR$/Assets/disparadorJefe.cs" />
@@ -55,6 +66,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/MenuPrincipal.cs" />
       <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/VidaJefe.cs" />
+      <option value="$PROJECT_DIR$/Assets/iniciarPelea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/BossIA.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -133,6 +147,7 @@
       <workItem from="1627608665203" duration="1430000" />
       <workItem from="1627614605961" duration="523000" />
       <workItem from="1627616026556" duration="8841000" />
+      <workItem from="1627629141601" duration="2149000" />
     </task>
     <servers />
   </component>
