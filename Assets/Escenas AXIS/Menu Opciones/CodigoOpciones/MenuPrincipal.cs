@@ -19,6 +19,7 @@ public class MenuPrincipal : MonoBehaviour
     }
     public void EmpezarJuego()
     {
+        Time.timeScale = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

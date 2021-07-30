@@ -20,7 +20,8 @@ public class MovimientoJugador : MonoBehaviour
     public RectTransform posicionPrimerCorazon;
     public Canvas MyCanvas;
     [SerializeField]private int OffSet;
-    
+
+    public GameObject gameOver;
     //Sistema de input
     private InputMaster controles;
 
@@ -42,6 +43,7 @@ public class MovimientoJugador : MonoBehaviour
 
     void Start()
     {
+        PuntajeJugador.score = 0;
         //Dibuja los corazones en pantalla
         Transform PosCorazon = posicionPrimerCorazon;
         for (int i = 0; i < CantCorazones; i++)
@@ -54,11 +56,14 @@ public class MovimientoJugador : MonoBehaviour
     
     void Update()
     {
+        
         //Cuando se queda sin corazones
         if (CantCorazones <= 0)
         {
+            
             Destroy(gameObject);
             Destroy(Corazon);
+            gameOver.SetActive(true);
         }
     }
 
@@ -127,4 +132,5 @@ public class MovimientoJugador : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    
 }

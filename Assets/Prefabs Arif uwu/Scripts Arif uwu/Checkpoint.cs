@@ -15,5 +15,6 @@ public class Checkpoint : MonoBehaviour
         {
             collision.GetComponent<CheckPointPlayer>().ReachedCheckPoint(transform.position.x, transform.position.y);
         }
+        
     }
 }

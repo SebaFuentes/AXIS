@@ -15,11 +15,11 @@ C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50980
+49607
 Successfully changed project path to: C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 C:/Users/Arif Bordones/Dropbox/Mi PC (LAPTOP-C6O8PAFN)/Documents/GitHub/AXIS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 277.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 198.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,616 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002509 seconds.
+Registered in 0.003866 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 174.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 194.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.573 seconds
+- Completed reload, in  1.758 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003674 seconds.
+Registered in 0.003498 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 172.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 185.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.421 seconds
+- Completed reload, in  1.534 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 106.0 MB.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.0 MB.
+System memory in use after: 106.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2598.
-Total: 3.409800 ms (FindLiveObjects: 0.377600 ms CreateObjectMapping: 0.109600 ms MarkObjects: 2.828800 ms  DeleteObjects: 0.091800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 4.003400 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.082700 ms MarkObjects: 3.464200 ms  DeleteObjects: 0.193600 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/PuntajeJugador.cs
+  artifactKey: Guid(47ccb52af0ff9e5418eca19c703896c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/PuntajeJugador.cs using Guid(47ccb52af0ff9e5418eca19c703896c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112919e48b8ce3970aac5537610edebf') in 0.037756 seconds
+  Import took 0.043878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.278274 seconds.
+  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/Checkpoint.cs
+  artifactKey: Guid(4a801f57fe381d847b241e71dda6cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/Checkpoint.cs using Guid(4a801f57fe381d847b241e71dda6cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04702e24ac657deccf6d0f89446d270d') in 0.009852 seconds
+  Import took 0.019930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002233 seconds.
+  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/Checkpoint.cs
+  artifactKey: Guid(4a801f57fe381d847b241e71dda6cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/Checkpoint.cs using Guid(4a801f57fe381d847b241e71dda6cb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04702e24ac657deccf6d0f89446d270d') in 0.003363 seconds
+  Import took 0.008938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.943627 seconds.
+  path: Assets/Prefabs Arif uwu/Coin USD.prefab
+  artifactKey: Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Coin USD.prefab using Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8616ec20b23ab2b4018dcb27230054a7') in 0.117525 seconds
+  Import took 0.122321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.086602 seconds.
   path: Assets/axis imagen.jpg
   artifactKey: Guid(a03d57d47a9e7844ea906a3292125280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/axis imagen.jpg using Guid(a03d57d47a9e7844ea906a3292125280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a006fc9f2875265be35748184199723') in 0.174297 seconds
-  Import took 0.193507 seconds .
+Start importing Assets/axis imagen.jpg using Guid(a03d57d47a9e7844ea906a3292125280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a006fc9f2875265be35748184199723') in 0.050989 seconds
+  Import took 0.055710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.134840 seconds.
+  path: Assets/Prefabs SebaA
+  artifactKey: Guid(5884690a7949a4a49aaf9e5ea609b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA using Guid(5884690a7949a4a49aaf9e5ea609b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1ffa018307f8eb3ad1972c73b44ca3') in 0.011073 seconds
+  Import took 0.016217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001044 seconds.
+  path: Assets/Prefabs SebaA
+  artifactKey: Guid(5884690a7949a4a49aaf9e5ea609b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA using Guid(5884690a7949a4a49aaf9e5ea609b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1ffa018307f8eb3ad1972c73b44ca3') in 0.004648 seconds
+  Import took 0.010937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075716 seconds.
+  path: Assets/Prefabs SebaA/BalaJefe.prefab
+  artifactKey: Guid(6af1678a668bcb54da07c219371a8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/BalaJefe.prefab using Guid(6af1678a668bcb54da07c219371a8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0be5a53c5e3f35c1a1df3bea074314d') in 0.023255 seconds
+  Import took 0.029260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092616 seconds.
+  path: Assets/Prefabs SebaA/Boss.prefab
+  artifactKey: Guid(5173ab0075473d04c94ccb44b26e4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Boss.prefab using Guid(5173ab0075473d04c94ccb44b26e4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875df56136e872f69bbe4b266adc26f3') in 0.018833 seconds
+  Import took 0.023840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130487 seconds.
+  path: Assets/Prefabs SebaA/Enemigo.prefab
+  artifactKey: Guid(ae386ea2bb69e714cbd008c2e75ca735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Enemigo.prefab using Guid(ae386ea2bb69e714cbd008c2e75ca735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d4130f5c044e155b6917d2fffb64b4') in 0.020231 seconds
+  Import took 0.026894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Prefabs SebaA/Player2.prefab
+  artifactKey: Guid(d9f59a3c936fd44469ec404ae3ccddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Player2.prefab using Guid(d9f59a3c936fd44469ec404ae3ccddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9e126d59a19b63595a8a681a73347d') in 0.024457 seconds
+  Import took 0.031980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.199083 seconds.
+  path: Assets/Scripts SebaA/InputMaster.inputactions
+  artifactKey: Guid(93f4b0d1004e7e944aaf27c333064a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts SebaA/InputMaster.inputactions using Guid(93f4b0d1004e7e944aaf27c333064a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e16b3deb3d7b210ab47007e39f4d5') in 0.019483 seconds
+  Import took 0.026086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.053924 seconds.
+  path: Assets/Prefabs SebaA/Prefabs SebaA/Enemigo.prefab
+  artifactKey: Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Prefabs SebaA/Enemigo.prefab using Guid(1b6c204326fe3bc418c55baa814d946c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bacd73ee2fc0b318ed28bece53faa17') in 0.021256 seconds
+  Import took 0.026760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011499 seconds.
+  path: Assets/Prefabs SebaA/Prefabs SebaA/MenuPausa.prefab
+  artifactKey: Guid(f510eef0198aef942a402ac3694f59f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Prefabs SebaA/MenuPausa.prefab using Guid(f510eef0198aef942a402ac3694f59f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1125deebfb90973d394f4e82d5fc6f') in 0.256207 seconds
+  Import took 0.263397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Prefabs SebaA/Prefabs SebaA/Player1.prefab
+  artifactKey: Guid(46197a25e943a834388c2c3dab5d5958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs SebaA/Prefabs SebaA/Player1.prefab using Guid(46197a25e943a834388c2c3dab5d5958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f5cce2f8e6c0996734298634e293db') in 0.021011 seconds
+  Import took 0.027317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.486066 seconds.
+  path: Assets/Aekashics Librarium - Megapack III
+  artifactKey: Guid(f67f7d0152c0ff243a876b3689ee0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aekashics Librarium - Megapack III using Guid(f67f7d0152c0ff243a876b3689ee0347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9303082047bbcbb662a0679df4e62fcf') in 0.011189 seconds
+  Import took 0.016795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 261.696476 seconds.
+  path: Assets/Prefabs Arif uwu/Musiquita uwu
+  artifactKey: Guid(e5cb6fa1d0244ea4db74ed61f7d63b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Musiquita uwu using Guid(e5cb6fa1d0244ea4db74ed61f7d63b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b88f92fd9c77007b8fa2a6a398f5e11') in 0.011294 seconds
+  Import took 0.016792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.149705 seconds.
+  path: Assets/Prefabs Arif uwu/Musiquita uwu/Coin.mp3
+  artifactKey: Guid(2198ca4036ebd424a8d552eac732827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Musiquita uwu/Coin.mp3 using Guid(2198ca4036ebd424a8d552eac732827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f8ddbce0ce846829211ed60913d4ac') in 0.027228 seconds
+  Import took 0.031927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs Arif uwu/Musiquita uwu/y2meta.com - Jujutsu Kaisen_ Gojo Satoru Hollow Purple Theme _ EPIC VERSION (Besto Quality) (128 kbps).mp3
+  artifactKey: Guid(0ed1927c2edf2bb43b635620be61e188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Musiquita uwu/y2meta.com - Jujutsu Kaisen_ Gojo Satoru Hollow Purple Theme _ EPIC VERSION (Besto Quality) (128 kbps).mp3 using Guid(0ed1927c2edf2bb43b635620be61e188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09152773f910b4ca7dfb748633d4d017') in 0.019888 seconds
+  Import took 0.025075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.657067 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1
+  artifactKey: Guid(7b1925631b03fdd4fbc5b968b6030fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1 using Guid(7b1925631b03fdd4fbc5b968b6030fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c523f0a7f4b3de6a2aab0d2d1801b9d') in 0.011238 seconds
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.666047 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets
+  artifactKey: Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets using Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe115da3717c0b9462fb736f6256418f') in 0.020310 seconds
+  Import took 0.025535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631186 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other
+  artifactKey: Guid(9b265bbeade4a16468dc117cf3b94dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other using Guid(9b265bbeade4a16468dc117cf3b94dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967133f6f25d34f55b5b28a8446d3909') in 0.011098 seconds
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054145 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Confetti (16x16).png
+  artifactKey: Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Confetti (16x16).png using Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cef5f24dd7904aac73591374dd70b4') in 0.035828 seconds
+  Import took 0.041369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Dust Particle.png
+  artifactKey: Guid(e7980a08b8e9f3c4bbe56762604cba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Dust Particle.png using Guid(e7980a08b8e9f3c4bbe56762604cba98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5911d87eb38a6b855572ec1fb30168') in 0.018122 seconds
+  Import took 0.023027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Shadow.png
+  artifactKey: Guid(38ea9af89efd60b4ab324ed5b168cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Shadow.png using Guid(38ea9af89efd60b4ab324ed5b168cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b663668fb9bef16aa187632aa1721041') in 0.021268 seconds
+  Import took 0.027113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Transition.png
+  artifactKey: Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Other/Transition.png using Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d11ed9465062cd5f27eb384467f6d1') in 0.028514 seconds
+  Import took 0.033634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.858113 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items
+  artifactKey: Guid(45aa8edc5710be2418fa949495904348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items using Guid(45aa8edc5710be2418fa949495904348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b574041c2262d5cff1c45ea0ade13c2') in 0.012762 seconds
+  Import took 0.019155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.572023 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints
+  artifactKey: Guid(579c5569f698b454d8f2bf35433059ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints using Guid(579c5569f698b454d8f2bf35433059ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023dca433e8ce16b8747e694a673d7a') in 0.014163 seconds
+  Import took 0.019317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.050322 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint
+  artifactKey: Guid(d0194b0f37632844cbe5f12a0c2f7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint using Guid(d0194b0f37632844cbe5f12a0c2f7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ef0b28f06aa56634dd0bdadffc7a8') in 0.004724 seconds
+  Import took 0.009807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint
+  artifactKey: Guid(d0194b0f37632844cbe5f12a0c2f7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint using Guid(d0194b0f37632844cbe5f12a0c2f7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ef0b28f06aa56634dd0bdadffc7a8') in 0.003295 seconds
+  Import took 0.008572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077414 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png
+  artifactKey: Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png using Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bed55821e000e046eac8335719ac9f0') in 0.065936 seconds
+  Import took 0.072601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png
+  artifactKey: Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png using Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c854feefe214e877e552f6f74c5011') in 0.105228 seconds
+  Import took 0.111209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png
+  artifactKey: Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png using Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a50f6eb679f0a1216c6ff0c7a18ba0') in 0.023069 seconds
+  Import took 0.027959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.470335 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28f4632b62cf9ef20f0294ae3902822') in 0.011965 seconds
+  Import took 0.017051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.131975 seconds.
+  path: Assets/Prefabs Arif uwu/bandera uwu.prefab
+  artifactKey: Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/bandera uwu.prefab using Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c6b03a77b4085a806285383bb9609177') in 0.025080 seconds
+  Import took 0.030179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.333744 seconds.
+  path: Assets/Prefabs Arif uwu/bandera uwu.prefab
+  artifactKey: Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/bandera uwu.prefab using Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '7aad3694f4c0cfc26e734c4295a76d52') in 0.014746 seconds
+  Import took 0.019874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.328015 seconds.
+  path: Assets/Prefabs Arif uwu/bandera uwu.prefab
+  artifactKey: Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/bandera uwu.prefab using Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b759860b51e7db7b164e0c45c51bb4b7') in 0.014733 seconds
+  Import took 0.019714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013419 seconds.
+  path: Assets/Prefabs Arif uwu/bandera uwu.prefab
+  artifactKey: Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/bandera uwu.prefab using Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b759860b51e7db7b164e0c45c51bb4b7') in 0.016770 seconds
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.383797 seconds.
+  path: Assets/Prefabs Arif uwu/bandera uwu.prefab
+  artifactKey: Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/bandera uwu.prefab using Guid(5a18dd766a0afb84abfb729746667105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Checkpoint (Flag Idle)(64x64)_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'f2228c1d368fc68086fd7d69b83198ad') in 0.014595 seconds
+  Import took 0.019874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.195025 seconds.
+  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/CheckPointPlayer.cs
+  artifactKey: Guid(efe17a958607b4f459faa1b322b0533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/CheckPointPlayer.cs using Guid(efe17a958607b4f459faa1b322b0533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd9d4343d1deb5ed9454fc9564a633f') in 0.010643 seconds
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.161840 seconds.
+  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/BotonMenu.cs
+  artifactKey: Guid(4913ca757beb98d4284e6b87a471ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/BotonMenu.cs using Guid(4913ca757beb98d4284e6b87a471ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7180f036b2af62979d21eb7bb52f23b') in 0.010619 seconds
+  Import took 0.018551 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003330 seconds.
+Registered in 0.004367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.359900 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.939100 ms  DeleteObjects: 0.054800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.687074 seconds.
+  path: Assets/Scripts SebaA/MovimientoJugador.cs
+  artifactKey: Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts SebaA/MovimientoJugador.cs using Guid(b33874213fb88e742961ce20ecc19a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6526b8bf0c2808d66df691b3a6dee4b6') in 0.016671 seconds
+  Import took 0.021974 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003003 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
+- Completed reload, in  1.617 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2129 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2614.
-Total: 3.883900 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.067400 ms MarkObjects: 3.458600 ms  DeleteObjects: 0.056400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.198793 seconds.
-  path: Assets/Prefabs Arif uwu/Canvas Puntaje.prefab
-  artifactKey: Guid(55b63f8fe354b184aa1110b53e4fb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Canvas Puntaje.prefab using Guid(55b63f8fe354b184aa1110b53e4fb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fe4eae33bca132dbcb2879d185dd66') in 0.059732 seconds
-  Import took 0.070008 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 4.304800 ms (FindLiveObjects: 0.517300 ms CreateObjectMapping: 0.169300 ms MarkObjects: 3.594700 ms  DeleteObjects: 0.021000 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Prefabs Arif uwu/Musica de fondo.prefab
-  artifactKey: Guid(d26efbf34bdafcc47a36fa6fb12ce45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Musica de fondo.prefab using Guid(d26efbf34bdafcc47a36fa6fb12ce45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe665d8a53952c4678870478f95b4379') in 0.013590 seconds
-  Import took 0.021263 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 4.864900 ms (FindLiveObjects: 1.023400 ms CreateObjectMapping: 0.208800 ms MarkObjects: 3.601600 ms  DeleteObjects: 0.026100 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Prefabs Arif uwu/Coin USD.prefab
-  artifactKey: Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Coin USD.prefab using Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489623943171ce2fcdddada602de194e') in 0.016426 seconds
-  Import took 0.021640 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.268600 ms (FindLiveObjects: 0.561200 ms CreateObjectMapping: 0.247600 ms MarkObjects: 2.439300 ms  DeleteObjects: 0.018500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefabs Arif uwu/CheckPoint.prefab
-  artifactKey: Guid(92cff9c036179a349954fc1f5999e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/CheckPoint.prefab using Guid(92cff9c036179a349954fc1f5999e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d708e9314656c027e0673fcd4d295') in 0.016460 seconds
-  Import took 0.024847 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 3.016100 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.596000 ms  DeleteObjects: 0.023400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Prefabs Arif uwu/SonidoCoin.prefab
-  artifactKey: Guid(bba8e2fb47905a945b723dd5ba9ef593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/SonidoCoin.prefab using Guid(bba8e2fb47905a945b723dd5ba9ef593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84a6558141bc1d94b331ceb969f370e') in 0.012899 seconds
-  Import took 0.018306 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 5.513603 seconds.
-  path: Assets/Prefabs Arif uwu/Scripts Arif uwu
-  artifactKey: Guid(71164579e4c10cc4a8d7cdcb680dd243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu using Guid(71164579e4c10cc4a8d7cdcb680dd243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72917dd8511c93f4951d943610825cff') in 0.009960 seconds
-  Import took 0.015276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.545144 seconds.
-  path: Assets/Prefabs Arif uwu/Coin USD.prefab
-  artifactKey: Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Coin USD.prefab using Guid(9f2206af93e67f941b0386153fbc4e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bfed879dfdabc78a8ce95760f4af8c') in 0.075648 seconds
-  Import took 0.082620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.720689 seconds.
-  path: Assets/Prefabs Arif uwu/Scripts Arif uwu/CoinsManager.cs
-  artifactKey: Guid(923302d7c93afb646a805c3698535500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs Arif uwu/Scripts Arif uwu/CoinsManager.cs using Guid(923302d7c93afb646a805c3698535500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e44d62f00a5d73e52143baf918fd844') in 0.033104 seconds
-  Import took 0.038251 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 3.183700 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.836600 ms  DeleteObjects: 0.021500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

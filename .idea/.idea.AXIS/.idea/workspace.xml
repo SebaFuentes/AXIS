@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Escenas AXIS/Escenario 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Scripts Arif uwu/BotonMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Scripts Arif uwu/BotonMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="4162d185-2ac2-4878-b0cd-419d299ed711" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +20,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthHeartSystem/Scripts/HealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -68,8 +47,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/disparoJefe.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/destruccionBala.cs" />
       <option value="$PROJECT_DIR$/Assets/disparadorJefe.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovJugador2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/GameOverLoad.cs" />
+      <option value="$PROJECT_DIR$/Assets/Prefabs Arif uwu/Scripts Arif uwu/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/GameOverManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/ControladorOpciones.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts SebaA/MovimientoJugador.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/CodigoOpciones/MenuPrincipal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Escenas AXIS/Menu Opciones/menuMulti.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sYCuO4ceyb759ZA1RaEnlx96NV" />
@@ -147,6 +132,7 @@
       <workItem from="1627595640602" duration="4942000" />
       <workItem from="1627608665203" duration="1430000" />
       <workItem from="1627614605961" duration="523000" />
+      <workItem from="1627616026556" duration="8841000" />
     </task>
     <servers />
   </component>

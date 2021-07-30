@@ -5,15 +5,10 @@ using UnityEngine;
 public class ControladorOpciones : MonoBehaviour
 {
     public GameObject pantallaOpciones;
+    
     // Start is called before the first frame update
-    void Start()
+    public void abrirOpciones()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        pantallaOpciones.SetActive(true);
     }
 }
